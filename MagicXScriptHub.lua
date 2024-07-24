@@ -1,4 +1,4 @@
--- Instances: 340 | Scripts: 55 | Modules: 0
+-- Instances: 343 | Scripts: 47 | Modules: 0
 local G2L = {};
 
 -- StarterGui.MagicXHubv1.0Gui
@@ -198,1881 +198,1881 @@ G2L["1d"] = Instance.new("UIStroke", G2L["1b"]);
 G2L["1d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["1d"]["Thickness"] = 2.5;
 
+-- StarterGui.MagicXHubv1.0Gui.Holder.HomeFrame.UIAspectRatioConstraint
+G2L["1e"] = Instance.new("UIAspectRatioConstraint", G2L["3"]);
+G2L["1e"]["AspectRatio"] = 1.43539;
+
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame
-G2L["1e"] = Instance.new("Frame", G2L["2"]);
-G2L["1e"]["Visible"] = false;
-G2L["1e"]["BorderSizePixel"] = 0;
-G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1e"]["Size"] = UDim2.new(0, 511, 0, 356);
-G2L["1e"]["Position"] = UDim2.new(0, 0, -0.005, 0);
-G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["Name"] = [[MM2Frame]];
+G2L["1f"] = Instance.new("Frame", G2L["2"]);
+G2L["1f"]["Visible"] = false;
+G2L["1f"]["BorderSizePixel"] = 0;
+G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f"]["Size"] = UDim2.new(0, 511, 0, 356);
+G2L["1f"]["Position"] = UDim2.new(0, 0, -0.005, 0);
+G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["Name"] = [[MM2Frame]];
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.TitleLabel
-G2L["1f"] = Instance.new("TextLabel", G2L["1e"]);
-G2L["1f"]["TextWrapped"] = true;
-G2L["1f"]["BorderSizePixel"] = 0;
-G2L["1f"]["TextScaled"] = true;
-G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1f"]["TextSize"] = 14;
-G2L["1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f"]["Size"] = UDim2.new(0, 510, 0, 50);
-G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f"]["Text"] = [[Murder Mystery 2]];
-G2L["1f"]["Name"] = [[TitleLabel]];
-G2L["1f"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
+G2L["20"] = Instance.new("TextLabel", G2L["1f"]);
+G2L["20"]["TextWrapped"] = true;
+G2L["20"]["BorderSizePixel"] = 0;
+G2L["20"]["TextScaled"] = true;
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["TextSize"] = 14;
+G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["20"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Size"] = UDim2.new(0, 510, 0, 50);
+G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Text"] = [[Murder Mystery 2]];
+G2L["20"]["Name"] = [[TitleLabel]];
+G2L["20"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.TitleLabel.UIStroke
-G2L["20"] = Instance.new("UIStroke", G2L["1f"]);
-G2L["20"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["20"]["Thickness"] = 2.5;
+G2L["21"] = Instance.new("UIStroke", G2L["20"]);
+G2L["21"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["21"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.TitleLabel.UIGradient
-G2L["21"] = Instance.new("UIGradient", G2L["1f"]);
-G2L["21"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["22"] = Instance.new("UIGradient", G2L["20"]);
+G2L["22"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.TitleLabel.UIGradient.LocalScript
-G2L["22"] = Instance.new("LocalScript", G2L["21"]);
+G2L["23"] = Instance.new("LocalScript", G2L["22"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.UIGradient
-G2L["23"] = Instance.new("UIGradient", G2L["1e"]);
-G2L["23"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
+G2L["24"] = Instance.new("UIGradient", G2L["1f"]);
+G2L["24"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.UIGradient.LocalScript
-G2L["24"] = Instance.new("LocalScript", G2L["23"]);
+G2L["25"] = Instance.new("LocalScript", G2L["24"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.UIGradient.TextLabel
-G2L["25"] = Instance.new("TextLabel", G2L["23"]);
-G2L["25"]["BorderSizePixel"] = 0;
-G2L["25"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["25"]["TextSize"] = 14;
-G2L["25"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["25"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["25"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-
--- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label
-G2L["26"] = Instance.new("TextLabel", G2L["1e"]);
-G2L["26"]["TextWrapped"] = true;
+G2L["26"] = Instance.new("TextLabel", G2L["24"]);
 G2L["26"]["BorderSizePixel"] = 0;
-G2L["26"]["TextScaled"] = true;
 G2L["26"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["26"]["TextSize"] = 14;
-G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["26"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["26"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["26"]["Size"] = UDim2.new(0, 200, 0, 50);
 G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["26"]["Text"] = [[Highlight Hub (Murder Mystery 2)]];
-G2L["26"]["Name"] = [[HighlightHubMM2Label]];
-G2L["26"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label
+G2L["27"] = Instance.new("TextLabel", G2L["1f"]);
+G2L["27"]["TextWrapped"] = true;
+G2L["27"]["BorderSizePixel"] = 0;
+G2L["27"]["TextScaled"] = true;
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["TextSize"] = 14;
+G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["27"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Text"] = [[Highlight Hub (Murder Mystery 2)]];
+G2L["27"]["Name"] = [[HighlightHubMM2Label]];
+G2L["27"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.UIStroke
-G2L["27"] = Instance.new("UIStroke", G2L["26"]);
-G2L["27"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["27"]["Thickness"] = 2.5;
+G2L["28"] = Instance.new("UIStroke", G2L["27"]);
+G2L["28"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["28"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.ImageLabel
-G2L["28"] = Instance.new("ImageLabel", G2L["26"]);
-G2L["28"]["BorderSizePixel"] = 0;
-G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["28"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["28"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["28"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["29"] = Instance.new("ImageLabel", G2L["27"]);
+G2L["29"]["BorderSizePixel"] = 0;
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["29"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["29"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.ImageLabel.UIStroke
-G2L["29"] = Instance.new("UIStroke", G2L["28"]);
-G2L["29"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["29"]["Thickness"] = 2.5;
+G2L["2a"] = Instance.new("UIStroke", G2L["29"]);
+G2L["2a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["2a"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.HighlightMM2Button
-G2L["2a"] = Instance.new("TextButton", G2L["26"]);
-G2L["2a"]["TextWrapped"] = true;
-G2L["2a"]["BorderSizePixel"] = 0;
-G2L["2a"]["TextSize"] = 14;
-G2L["2a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2a"]["TextScaled"] = true;
-G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2a"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["2a"]["Name"] = [[HighlightMM2Button]];
-G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2a"]["Text"] = [[Execute]];
-G2L["2a"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["2b"] = Instance.new("TextButton", G2L["27"]);
+G2L["2b"]["TextWrapped"] = true;
+G2L["2b"]["BorderSizePixel"] = 0;
+G2L["2b"]["TextSize"] = 14;
+G2L["2b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["TextScaled"] = true;
+G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2b"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["2b"]["Name"] = [[HighlightMM2Button]];
+G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["Text"] = [[Execute]];
+G2L["2b"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.HighlightMM2Button.UICorner
-G2L["2b"] = Instance.new("UICorner", G2L["2a"]);
+G2L["2c"] = Instance.new("UICorner", G2L["2b"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.HighlightMM2Button.UIStroke
-G2L["2c"] = Instance.new("UIStroke", G2L["2a"]);
-G2L["2c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["2c"]["Thickness"] = 2.5;
+G2L["2d"] = Instance.new("UIStroke", G2L["2b"]);
+G2L["2d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["2d"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.HighlightMM2Button.UIGradient
-G2L["2d"] = Instance.new("UIGradient", G2L["2a"]);
-G2L["2d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["2e"] = Instance.new("UIGradient", G2L["2b"]);
+G2L["2e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.HighlightMM2Button.LocalScript
-G2L["2e"] = Instance.new("LocalScript", G2L["2a"]);
+G2L["2f"] = Instance.new("LocalScript", G2L["2b"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.UIGradient
-G2L["2f"] = Instance.new("UIGradient", G2L["26"]);
-G2L["2f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["30"] = Instance.new("UIGradient", G2L["27"]);
+G2L["30"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.UIStroke
-G2L["30"] = Instance.new("UIStroke", G2L["1e"]);
-G2L["30"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["30"]["Thickness"] = 2.5;
+G2L["31"] = Instance.new("UIStroke", G2L["1f"]);
+G2L["31"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["31"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label
-G2L["31"] = Instance.new("TextLabel", G2L["1e"]);
-G2L["31"]["TextWrapped"] = true;
-G2L["31"]["BorderSizePixel"] = 0;
-G2L["31"]["TextScaled"] = true;
-G2L["31"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["31"]["TextSize"] = 14;
-G2L["31"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["31"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["31"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["31"]["Text"] = [[Symphony Hub (Murder Mystery 2)]];
-G2L["31"]["Name"] = [[SymphonyHubMM2Label]];
-G2L["31"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
+G2L["32"] = Instance.new("TextLabel", G2L["1f"]);
+G2L["32"]["TextWrapped"] = true;
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["TextScaled"] = true;
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["TextSize"] = 14;
+G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["32"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Text"] = [[Symphony Hub (Murder Mystery 2)]];
+G2L["32"]["Name"] = [[SymphonyHubMM2Label]];
+G2L["32"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.UIStroke
-G2L["32"] = Instance.new("UIStroke", G2L["31"]);
-G2L["32"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["32"]["Thickness"] = 2.5;
+G2L["33"] = Instance.new("UIStroke", G2L["32"]);
+G2L["33"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["33"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.ImageLabel
-G2L["33"] = Instance.new("ImageLabel", G2L["31"]);
-G2L["33"]["BorderSizePixel"] = 0;
-G2L["33"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["33"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["33"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["33"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["34"] = Instance.new("ImageLabel", G2L["32"]);
+G2L["34"]["BorderSizePixel"] = 0;
+G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["34"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["34"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.ImageLabel.UIStroke
-G2L["34"] = Instance.new("UIStroke", G2L["33"]);
-G2L["34"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["34"]["Thickness"] = 2.5;
+G2L["35"] = Instance.new("UIStroke", G2L["34"]);
+G2L["35"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["35"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.SymphonyButton
-G2L["35"] = Instance.new("TextButton", G2L["31"]);
-G2L["35"]["TextWrapped"] = true;
-G2L["35"]["BorderSizePixel"] = 0;
-G2L["35"]["TextSize"] = 14;
-G2L["35"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["35"]["TextScaled"] = true;
-G2L["35"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["35"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["35"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["35"]["Name"] = [[SymphonyButton]];
-G2L["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["35"]["Text"] = [[Execute]];
-G2L["35"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["36"] = Instance.new("TextButton", G2L["32"]);
+G2L["36"]["TextWrapped"] = true;
+G2L["36"]["BorderSizePixel"] = 0;
+G2L["36"]["TextSize"] = 14;
+G2L["36"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["TextScaled"] = true;
+G2L["36"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["36"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["36"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["36"]["Name"] = [[SymphonyButton]];
+G2L["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["Text"] = [[Execute]];
+G2L["36"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.SymphonyButton.UICorner
-G2L["36"] = Instance.new("UICorner", G2L["35"]);
+G2L["37"] = Instance.new("UICorner", G2L["36"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.SymphonyButton.UIStroke
-G2L["37"] = Instance.new("UIStroke", G2L["35"]);
-G2L["37"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["37"]["Thickness"] = 2.5;
+G2L["38"] = Instance.new("UIStroke", G2L["36"]);
+G2L["38"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["38"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.SymphonyButton.UIGradient
-G2L["38"] = Instance.new("UIGradient", G2L["35"]);
-G2L["38"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["39"] = Instance.new("UIGradient", G2L["36"]);
+G2L["39"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.SymphonyButton.LocalScript
-G2L["39"] = Instance.new("LocalScript", G2L["35"]);
+G2L["3a"] = Instance.new("LocalScript", G2L["36"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.UIGradient
-G2L["3a"] = Instance.new("UIGradient", G2L["31"]);
-G2L["3a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["3b"] = Instance.new("UIGradient", G2L["32"]);
+G2L["3b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.UIAspectRatioConstraint
+G2L["3c"] = Instance.new("UIAspectRatioConstraint", G2L["1f"]);
+G2L["3c"]["AspectRatio"] = 1.43539;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame
-G2L["3b"] = Instance.new("ScrollingFrame", G2L["2"]);
-G2L["3b"]["Active"] = true;
-G2L["3b"]["BorderSizePixel"] = 0;
-G2L["3b"]["CanvasSize"] = UDim2.new(0, 0, 25, 0);
-G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(12, 209, 255);
-G2L["3b"]["Size"] = UDim2.new(0, 100, 0, 355);
-G2L["3b"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3b"]["Position"] = UDim2.new(-0.19683, 0, -0.00514, 0);
-G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3d"] = Instance.new("ScrollingFrame", G2L["2"]);
+G2L["3d"]["Active"] = true;
+G2L["3d"]["BorderSizePixel"] = 0;
+G2L["3d"]["CanvasSize"] = UDim2.new(0, 0, 25, 0);
+G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(12, 209, 255);
+G2L["3d"]["Size"] = UDim2.new(0, 100, 0, 355);
+G2L["3d"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3d"]["Position"] = UDim2.new(-0.19683, 0, -0.00514, 0);
+G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UIStroke
-G2L["3c"] = Instance.new("UIStroke", G2L["3b"]);
-G2L["3c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["3c"]["Thickness"] = 2.5;
+G2L["3e"] = Instance.new("UIStroke", G2L["3d"]);
+G2L["3e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["3e"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HomeButton
-G2L["3d"] = Instance.new("TextButton", G2L["3b"]);
-G2L["3d"]["TextWrapped"] = true;
-G2L["3d"]["BorderSizePixel"] = 0;
-G2L["3d"]["TextSize"] = 14;
-G2L["3d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3d"]["TextScaled"] = true;
-G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3d"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["3d"]["Name"] = [[HomeButton]];
-G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3d"]["Text"] = [[Home]];
+G2L["3f"] = Instance.new("TextButton", G2L["3d"]);
+G2L["3f"]["TextWrapped"] = true;
+G2L["3f"]["BorderSizePixel"] = 0;
+G2L["3f"]["TextSize"] = 14;
+G2L["3f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3f"]["TextScaled"] = true;
+G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3f"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["3f"]["Name"] = [[HomeButton]];
+G2L["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3f"]["Text"] = [[Home]];
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HomeButton.UIGradient
-G2L["3e"] = Instance.new("UIGradient", G2L["3d"]);
-G2L["3e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["40"] = Instance.new("UIGradient", G2L["3f"]);
+G2L["40"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HomeButton.UIGradient.LocalScript
-G2L["3f"] = Instance.new("LocalScript", G2L["3e"]);
+G2L["41"] = Instance.new("LocalScript", G2L["40"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HomeButton.UIStroke
-G2L["40"] = Instance.new("UIStroke", G2L["3d"]);
-G2L["40"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["40"]["Thickness"] = 2.5;
+G2L["42"] = Instance.new("UIStroke", G2L["3f"]);
+G2L["42"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["42"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HomeButton.UICorner
-G2L["41"] = Instance.new("UICorner", G2L["3d"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HomeButton.LocalScript
-G2L["42"] = Instance.new("LocalScript", G2L["3d"]);
+G2L["43"] = Instance.new("UICorner", G2L["3f"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.MM2Button
-G2L["43"] = Instance.new("TextButton", G2L["3b"]);
-G2L["43"]["TextWrapped"] = true;
-G2L["43"]["BorderSizePixel"] = 0;
-G2L["43"]["TextSize"] = 14;
-G2L["43"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["43"]["TextScaled"] = true;
-G2L["43"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["43"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["43"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["43"]["Name"] = [[MM2Button]];
-G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["43"]["Text"] = [[Murder Mystery 2]];
-G2L["43"]["Position"] = UDim2.new(0, 0, 0.27414, 0);
+G2L["44"] = Instance.new("TextButton", G2L["3d"]);
+G2L["44"]["TextWrapped"] = true;
+G2L["44"]["BorderSizePixel"] = 0;
+G2L["44"]["TextSize"] = 14;
+G2L["44"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["44"]["TextScaled"] = true;
+G2L["44"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["44"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["44"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["44"]["Name"] = [[MM2Button]];
+G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["44"]["Text"] = [[Murder Mystery 2]];
+G2L["44"]["Position"] = UDim2.new(0, 0, 0.27414, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.MM2Button.UIGradient
-G2L["44"] = Instance.new("UIGradient", G2L["43"]);
-G2L["44"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["45"] = Instance.new("UIGradient", G2L["44"]);
+G2L["45"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.MM2Button.UIStroke
-G2L["45"] = Instance.new("UIStroke", G2L["43"]);
-G2L["45"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["45"]["Thickness"] = 2.5;
+G2L["46"] = Instance.new("UIStroke", G2L["44"]);
+G2L["46"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["46"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.MM2Button.UICorner
-G2L["46"] = Instance.new("UICorner", G2L["43"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.MM2Button.LocalScript
-G2L["47"] = Instance.new("LocalScript", G2L["43"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.LocalScript
-G2L["48"] = Instance.new("LocalScript", G2L["3b"]);
+G2L["47"] = Instance.new("UICorner", G2L["44"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UniversalButton
-G2L["49"] = Instance.new("TextButton", G2L["3b"]);
-G2L["49"]["TextWrapped"] = true;
-G2L["49"]["BorderSizePixel"] = 0;
-G2L["49"]["TextSize"] = 14;
-G2L["49"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["49"]["TextScaled"] = true;
-G2L["49"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["49"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["49"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["49"]["Name"] = [[UniversalButton]];
-G2L["49"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["49"]["Text"] = [[Universal]];
-G2L["49"]["Position"] = UDim2.new(0, 0, 0.11132, 0);
+G2L["48"] = Instance.new("TextButton", G2L["3d"]);
+G2L["48"]["TextWrapped"] = true;
+G2L["48"]["BorderSizePixel"] = 0;
+G2L["48"]["TextSize"] = 14;
+G2L["48"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["TextScaled"] = true;
+G2L["48"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["48"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["48"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["48"]["Name"] = [[UniversalButton]];
+G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["Text"] = [[Universal]];
+G2L["48"]["Position"] = UDim2.new(0, 0, 0.11132, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UniversalButton.UIGradient
-G2L["4a"] = Instance.new("UIGradient", G2L["49"]);
-G2L["4a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["49"] = Instance.new("UIGradient", G2L["48"]);
+G2L["49"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UniversalButton.UIGradient.LocalScript
-G2L["4b"] = Instance.new("LocalScript", G2L["4a"]);
+G2L["4a"] = Instance.new("LocalScript", G2L["49"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UniversalButton.UIStroke
-G2L["4c"] = Instance.new("UIStroke", G2L["49"]);
-G2L["4c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["4c"]["Thickness"] = 2.5;
+G2L["4b"] = Instance.new("UIStroke", G2L["48"]);
+G2L["4b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["4b"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UniversalButton.UICorner
-G2L["4d"] = Instance.new("UICorner", G2L["49"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UniversalButton.LocalScript
-G2L["4e"] = Instance.new("LocalScript", G2L["49"]);
+G2L["4c"] = Instance.new("UICorner", G2L["48"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.AimbotButton
-G2L["4f"] = Instance.new("TextButton", G2L["3b"]);
-G2L["4f"]["TextWrapped"] = true;
-G2L["4f"]["BorderSizePixel"] = 0;
-G2L["4f"]["TextSize"] = 14;
-G2L["4f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4f"]["TextScaled"] = true;
-G2L["4f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["4f"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["4f"]["Name"] = [[AimbotButton]];
-G2L["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["4f"]["Text"] = [[Aimbot]];
-G2L["4f"]["Position"] = UDim2.new(0, 0, 0.16447, 0);
+G2L["4d"] = Instance.new("TextButton", G2L["3d"]);
+G2L["4d"]["TextWrapped"] = true;
+G2L["4d"]["BorderSizePixel"] = 0;
+G2L["4d"]["TextSize"] = 14;
+G2L["4d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4d"]["TextScaled"] = true;
+G2L["4d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4d"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["4d"]["Name"] = [[AimbotButton]];
+G2L["4d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4d"]["Text"] = [[Aimbot]];
+G2L["4d"]["Position"] = UDim2.new(0, 0, 0.16447, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.AimbotButton.UIGradient
-G2L["50"] = Instance.new("UIGradient", G2L["4f"]);
-G2L["50"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["4e"] = Instance.new("UIGradient", G2L["4d"]);
+G2L["4e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.AimbotButton.UIGradient.LocalScript
-G2L["51"] = Instance.new("LocalScript", G2L["50"]);
+G2L["4f"] = Instance.new("LocalScript", G2L["4e"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.AimbotButton.UIStroke
-G2L["52"] = Instance.new("UIStroke", G2L["4f"]);
-G2L["52"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["52"]["Thickness"] = 2.5;
+G2L["50"] = Instance.new("UIStroke", G2L["4d"]);
+G2L["50"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["50"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.AimbotButton.UICorner
-G2L["53"] = Instance.new("UICorner", G2L["4f"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.AimbotButton.LocalScript
-G2L["54"] = Instance.new("LocalScript", G2L["4f"]);
+G2L["51"] = Instance.new("UICorner", G2L["4d"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton
-G2L["55"] = Instance.new("TextButton", G2L["3b"]);
-G2L["55"]["TextWrapped"] = true;
-G2L["55"]["BorderSizePixel"] = 0;
-G2L["55"]["TextSize"] = 14;
-G2L["55"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["55"]["TextScaled"] = true;
-G2L["55"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["55"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["55"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["55"]["Name"] = [[PrisonLifeButton]];
-G2L["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["55"]["Text"] = [[Prison Life]];
-G2L["55"]["Position"] = UDim2.new(0, 0, 0.22045, 0);
+G2L["52"] = Instance.new("TextButton", G2L["3d"]);
+G2L["52"]["TextWrapped"] = true;
+G2L["52"]["BorderSizePixel"] = 0;
+G2L["52"]["TextSize"] = 14;
+G2L["52"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["52"]["TextScaled"] = true;
+G2L["52"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["52"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["52"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["52"]["Name"] = [[PrisonLifeButton]];
+G2L["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["52"]["Text"] = [[Prison Life]];
+G2L["52"]["Position"] = UDim2.new(0, 0, 0.22045, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton.UIGradient
-G2L["56"] = Instance.new("UIGradient", G2L["55"]);
-G2L["56"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["53"] = Instance.new("UIGradient", G2L["52"]);
+G2L["53"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton.UIGradient.LocalScript
-G2L["57"] = Instance.new("LocalScript", G2L["56"]);
+G2L["54"] = Instance.new("LocalScript", G2L["53"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton.UIStroke
-G2L["58"] = Instance.new("UIStroke", G2L["55"]);
-G2L["58"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["58"]["Thickness"] = 2.5;
+G2L["55"] = Instance.new("UIStroke", G2L["52"]);
+G2L["55"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["55"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton.UICorner
-G2L["59"] = Instance.new("UICorner", G2L["55"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton.LocalScript
-G2L["5a"] = Instance.new("LocalScript", G2L["55"]);
+G2L["56"] = Instance.new("UICorner", G2L["52"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HubsButton
-G2L["5b"] = Instance.new("TextButton", G2L["3b"]);
-G2L["5b"]["TextWrapped"] = true;
-G2L["5b"]["BorderSizePixel"] = 0;
-G2L["5b"]["TextSize"] = 14;
-G2L["5b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5b"]["TextScaled"] = true;
-G2L["5b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["5b"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["5b"]["Name"] = [[HubsButton]];
-G2L["5b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5b"]["Text"] = [[Hubs]];
-G2L["5b"]["Position"] = UDim2.new(0, 0, 0.05547, 0);
+G2L["57"] = Instance.new("TextButton", G2L["3d"]);
+G2L["57"]["TextWrapped"] = true;
+G2L["57"]["BorderSizePixel"] = 0;
+G2L["57"]["TextSize"] = 14;
+G2L["57"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["57"]["TextScaled"] = true;
+G2L["57"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["57"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["57"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["57"]["Name"] = [[HubsButton]];
+G2L["57"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["57"]["Text"] = [[Hubs]];
+G2L["57"]["Position"] = UDim2.new(0, 0, 0.05547, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HubsButton.UIGradient
-G2L["5c"] = Instance.new("UIGradient", G2L["5b"]);
-G2L["5c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["58"] = Instance.new("UIGradient", G2L["57"]);
+G2L["58"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HubsButton.UIGradient.LocalScript
-G2L["5d"] = Instance.new("LocalScript", G2L["5c"]);
+G2L["59"] = Instance.new("LocalScript", G2L["58"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HubsButton.UIStroke
-G2L["5e"] = Instance.new("UIStroke", G2L["5b"]);
-G2L["5e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["5e"]["Thickness"] = 2.5;
+G2L["5a"] = Instance.new("UIStroke", G2L["57"]);
+G2L["5a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["5a"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HubsButton.UICorner
-G2L["5f"] = Instance.new("UICorner", G2L["5b"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HubsButton.LocalScript
-G2L["60"] = Instance.new("LocalScript", G2L["5b"]);
+G2L["5b"] = Instance.new("UICorner", G2L["57"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.BladeBallButton
-G2L["61"] = Instance.new("TextButton", G2L["3b"]);
-G2L["61"]["TextWrapped"] = true;
-G2L["61"]["BorderSizePixel"] = 0;
-G2L["61"]["TextSize"] = 14;
-G2L["61"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["61"]["TextScaled"] = true;
-G2L["61"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["61"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["61"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["61"]["Name"] = [[BladeBallButton]];
-G2L["61"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["61"]["Text"] = [[Blade Ball]];
-G2L["61"]["Position"] = UDim2.new(0, 0, 0.32701, 0);
+G2L["5c"] = Instance.new("TextButton", G2L["3d"]);
+G2L["5c"]["TextWrapped"] = true;
+G2L["5c"]["BorderSizePixel"] = 0;
+G2L["5c"]["TextSize"] = 14;
+G2L["5c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5c"]["TextScaled"] = true;
+G2L["5c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5c"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["5c"]["Name"] = [[BladeBallButton]];
+G2L["5c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5c"]["Text"] = [[Blade Ball]];
+G2L["5c"]["Position"] = UDim2.new(0, 0, 0.32701, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.BladeBallButton.UIGradient
-G2L["62"] = Instance.new("UIGradient", G2L["61"]);
-G2L["62"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["5d"] = Instance.new("UIGradient", G2L["5c"]);
+G2L["5d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.BladeBallButton.UIStroke
-G2L["63"] = Instance.new("UIStroke", G2L["61"]);
-G2L["63"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["63"]["Thickness"] = 2.5;
+G2L["5e"] = Instance.new("UIStroke", G2L["5c"]);
+G2L["5e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["5e"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.BladeBallButton.UICorner
-G2L["64"] = Instance.new("UICorner", G2L["61"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.BladeBallButton.LocalScript
-G2L["65"] = Instance.new("LocalScript", G2L["61"]);
+G2L["5f"] = Instance.new("UICorner", G2L["5c"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.FunkyFridayButton
-G2L["66"] = Instance.new("TextButton", G2L["3b"]);
-G2L["66"]["TextWrapped"] = true;
-G2L["66"]["BorderSizePixel"] = 0;
-G2L["66"]["TextSize"] = 14;
-G2L["66"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["66"]["TextScaled"] = true;
-G2L["66"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["66"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["66"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["66"]["Name"] = [[FunkyFridayButton]];
-G2L["66"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["66"]["Text"] = [[Funky Friday]];
-G2L["66"]["Position"] = UDim2.new(0, 0, 0.37681, 0);
+G2L["60"] = Instance.new("TextButton", G2L["3d"]);
+G2L["60"]["TextWrapped"] = true;
+G2L["60"]["BorderSizePixel"] = 0;
+G2L["60"]["TextSize"] = 14;
+G2L["60"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["60"]["TextScaled"] = true;
+G2L["60"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["60"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["60"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["60"]["Name"] = [[FunkyFridayButton]];
+G2L["60"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["60"]["Text"] = [[Funky Friday]];
+G2L["60"]["Position"] = UDim2.new(0, 0, 0.37681, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.FunkyFridayButton.UIGradient
-G2L["67"] = Instance.new("UIGradient", G2L["66"]);
-G2L["67"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["61"] = Instance.new("UIGradient", G2L["60"]);
+G2L["61"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.FunkyFridayButton.UIStroke
-G2L["68"] = Instance.new("UIStroke", G2L["66"]);
-G2L["68"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["68"]["Thickness"] = 2.5;
+G2L["62"] = Instance.new("UIStroke", G2L["60"]);
+G2L["62"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["62"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.FunkyFridayButton.UICorner
-G2L["69"] = Instance.new("UICorner", G2L["66"]);
-
-
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.FunkyFridayButton.LocalScript
-G2L["6a"] = Instance.new("LocalScript", G2L["66"]);
+G2L["63"] = Instance.new("UICorner", G2L["60"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.DoorsButton
-G2L["6b"] = Instance.new("TextButton", G2L["3b"]);
-G2L["6b"]["TextWrapped"] = true;
-G2L["6b"]["BorderSizePixel"] = 0;
-G2L["6b"]["TextSize"] = 14;
-G2L["6b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6b"]["TextScaled"] = true;
-G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["6b"]["Size"] = UDim2.new(0, 88, 0, 50);
-G2L["6b"]["Name"] = [[DoorsButton]];
-G2L["6b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6b"]["Text"] = [[Doors]];
-G2L["6b"]["Position"] = UDim2.new(0, 0, 0.4282, 0);
+G2L["64"] = Instance.new("TextButton", G2L["3d"]);
+G2L["64"]["TextWrapped"] = true;
+G2L["64"]["BorderSizePixel"] = 0;
+G2L["64"]["TextSize"] = 14;
+G2L["64"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["TextScaled"] = true;
+G2L["64"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["64"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["64"]["Size"] = UDim2.new(0, 88, 0, 50);
+G2L["64"]["Name"] = [[DoorsButton]];
+G2L["64"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["Text"] = [[Doors]];
+G2L["64"]["Position"] = UDim2.new(0, 0, 0.4282, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.DoorsButton.UIGradient
-G2L["6c"] = Instance.new("UIGradient", G2L["6b"]);
-G2L["6c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["65"] = Instance.new("UIGradient", G2L["64"]);
+G2L["65"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.DoorsButton.UIStroke
-G2L["6d"] = Instance.new("UIStroke", G2L["6b"]);
-G2L["6d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["6d"]["Thickness"] = 2.5;
+G2L["66"] = Instance.new("UIStroke", G2L["64"]);
+G2L["66"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["66"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.DoorsButton.UICorner
-G2L["6e"] = Instance.new("UICorner", G2L["6b"]);
+G2L["67"] = Instance.new("UICorner", G2L["64"]);
 
 
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.DoorsButton.LocalScript
-G2L["6f"] = Instance.new("LocalScript", G2L["6b"]);
+-- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.LocalScript
+G2L["68"] = Instance.new("LocalScript", G2L["3d"]);
 
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UIAspectRatioConstraint
+G2L["69"] = Instance.new("UIAspectRatioConstraint", G2L["3d"]);
+G2L["69"]["AspectRatio"] = 0.28169;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.LocalScript
-G2L["70"] = Instance.new("LocalScript", G2L["2"]);
+G2L["6a"] = Instance.new("LocalScript", G2L["2"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame
-G2L["71"] = Instance.new("Frame", G2L["2"]);
-G2L["71"]["Visible"] = false;
-G2L["71"]["BorderSizePixel"] = 0;
-G2L["71"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["71"]["Size"] = UDim2.new(0, 511, 0, 356);
-G2L["71"]["Position"] = UDim2.new(0, 0, -0.005, 0);
-G2L["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["71"]["Name"] = [[PrisonLifeFrame]];
+G2L["6b"] = Instance.new("Frame", G2L["2"]);
+G2L["6b"]["Visible"] = false;
+G2L["6b"]["BorderSizePixel"] = 0;
+G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6b"]["Size"] = UDim2.new(0, 511, 0, 356);
+G2L["6b"]["Position"] = UDim2.new(0, 0, -0.005, 0);
+G2L["6b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6b"]["Name"] = [[PrisonLifeFrame]];
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TitleLabel
-G2L["72"] = Instance.new("TextLabel", G2L["71"]);
-G2L["72"]["TextWrapped"] = true;
-G2L["72"]["BorderSizePixel"] = 0;
-G2L["72"]["TextScaled"] = true;
-G2L["72"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["72"]["TextSize"] = 14;
-G2L["72"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["72"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["72"]["Size"] = UDim2.new(0, 510, 0, 50);
-G2L["72"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["72"]["Text"] = [[Prison Life]];
-G2L["72"]["Name"] = [[TitleLabel]];
-G2L["72"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
+G2L["6c"] = Instance.new("TextLabel", G2L["6b"]);
+G2L["6c"]["TextWrapped"] = true;
+G2L["6c"]["BorderSizePixel"] = 0;
+G2L["6c"]["TextScaled"] = true;
+G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6c"]["TextSize"] = 14;
+G2L["6c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6c"]["Size"] = UDim2.new(0, 510, 0, 50);
+G2L["6c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6c"]["Text"] = [[Prison Life]];
+G2L["6c"]["Name"] = [[TitleLabel]];
+G2L["6c"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TitleLabel.UIStroke
-G2L["73"] = Instance.new("UIStroke", G2L["72"]);
-G2L["73"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["73"]["Thickness"] = 2.5;
+G2L["6d"] = Instance.new("UIStroke", G2L["6c"]);
+G2L["6d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["6d"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TitleLabel.UIGradient
-G2L["74"] = Instance.new("UIGradient", G2L["72"]);
-G2L["74"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["6e"] = Instance.new("UIGradient", G2L["6c"]);
+G2L["6e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TitleLabel.UIGradient.LocalScript
-G2L["75"] = Instance.new("LocalScript", G2L["74"]);
+G2L["6f"] = Instance.new("LocalScript", G2L["6e"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.UIGradient
-G2L["76"] = Instance.new("UIGradient", G2L["71"]);
-G2L["76"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
+G2L["70"] = Instance.new("UIGradient", G2L["6b"]);
+G2L["70"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.UIGradient.LocalScript
-G2L["77"] = Instance.new("LocalScript", G2L["76"]);
+G2L["71"] = Instance.new("LocalScript", G2L["70"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.UIGradient.TextLabel
-G2L["78"] = Instance.new("TextLabel", G2L["76"]);
-G2L["78"]["BorderSizePixel"] = 0;
-G2L["78"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["78"]["TextSize"] = 14;
-G2L["78"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["78"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["78"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["78"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["72"] = Instance.new("TextLabel", G2L["70"]);
+G2L["72"]["BorderSizePixel"] = 0;
+G2L["72"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["72"]["TextSize"] = 14;
+G2L["72"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["72"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["72"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["72"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel
-G2L["79"] = Instance.new("TextLabel", G2L["71"]);
-G2L["79"]["TextWrapped"] = true;
-G2L["79"]["BorderSizePixel"] = 0;
-G2L["79"]["TextScaled"] = true;
-G2L["79"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["79"]["TextSize"] = 14;
-G2L["79"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["79"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["79"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["79"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["79"]["Text"] = [[Tbao Hub Prison Life]];
-G2L["79"]["Name"] = [[TbaoHubLabel]];
-G2L["79"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
+G2L["73"] = Instance.new("TextLabel", G2L["6b"]);
+G2L["73"]["TextWrapped"] = true;
+G2L["73"]["BorderSizePixel"] = 0;
+G2L["73"]["TextScaled"] = true;
+G2L["73"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["73"]["TextSize"] = 14;
+G2L["73"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["73"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["73"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["73"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["73"]["Text"] = [[Tbao Hub Prison Life]];
+G2L["73"]["Name"] = [[TbaoHubLabel]];
+G2L["73"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.UIStroke
-G2L["7a"] = Instance.new("UIStroke", G2L["79"]);
-G2L["7a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["7a"]["Thickness"] = 2.5;
+G2L["74"] = Instance.new("UIStroke", G2L["73"]);
+G2L["74"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["74"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.ImageLabel
-G2L["7b"] = Instance.new("ImageLabel", G2L["79"]);
-G2L["7b"]["BorderSizePixel"] = 0;
-G2L["7b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7b"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["7b"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["7b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7b"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["75"] = Instance.new("ImageLabel", G2L["73"]);
+G2L["75"]["BorderSizePixel"] = 0;
+G2L["75"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["75"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["75"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["75"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["75"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.ImageLabel.UIStroke
-G2L["7c"] = Instance.new("UIStroke", G2L["7b"]);
-G2L["7c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["7c"]["Thickness"] = 2.5;
+G2L["76"] = Instance.new("UIStroke", G2L["75"]);
+G2L["76"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["76"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.TbaoHubButton
-G2L["7d"] = Instance.new("TextButton", G2L["79"]);
-G2L["7d"]["TextWrapped"] = true;
-G2L["7d"]["BorderSizePixel"] = 0;
-G2L["7d"]["TextSize"] = 14;
-G2L["7d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7d"]["TextScaled"] = true;
-G2L["7d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["7d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["7d"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["7d"]["Name"] = [[TbaoHubButton]];
-G2L["7d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["7d"]["Text"] = [[Execute]];
-G2L["7d"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["77"] = Instance.new("TextButton", G2L["73"]);
+G2L["77"]["TextWrapped"] = true;
+G2L["77"]["BorderSizePixel"] = 0;
+G2L["77"]["TextSize"] = 14;
+G2L["77"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["77"]["TextScaled"] = true;
+G2L["77"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["77"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["77"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["77"]["Name"] = [[TbaoHubButton]];
+G2L["77"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["77"]["Text"] = [[Execute]];
+G2L["77"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.TbaoHubButton.UICorner
-G2L["7e"] = Instance.new("UICorner", G2L["7d"]);
+G2L["78"] = Instance.new("UICorner", G2L["77"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.TbaoHubButton.UIStroke
-G2L["7f"] = Instance.new("UIStroke", G2L["7d"]);
-G2L["7f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["7f"]["Thickness"] = 2.5;
+G2L["79"] = Instance.new("UIStroke", G2L["77"]);
+G2L["79"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["79"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.TbaoHubButton.UIGradient
-G2L["80"] = Instance.new("UIGradient", G2L["7d"]);
-G2L["80"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["7a"] = Instance.new("UIGradient", G2L["77"]);
+G2L["7a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.TbaoHubButton.LocalScript
-G2L["81"] = Instance.new("LocalScript", G2L["7d"]);
+G2L["7b"] = Instance.new("LocalScript", G2L["77"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.UIGradient
-G2L["82"] = Instance.new("UIGradient", G2L["79"]);
-G2L["82"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["7c"] = Instance.new("UIGradient", G2L["73"]);
+G2L["7c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.UIStroke
-G2L["83"] = Instance.new("UIStroke", G2L["71"]);
-G2L["83"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["83"]["Thickness"] = 2.5;
+G2L["7d"] = Instance.new("UIStroke", G2L["6b"]);
+G2L["7d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["7d"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel
-G2L["84"] = Instance.new("TextLabel", G2L["71"]);
-G2L["84"]["TextWrapped"] = true;
-G2L["84"]["BorderSizePixel"] = 0;
-G2L["84"]["TextScaled"] = true;
-G2L["84"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["84"]["TextSize"] = 14;
-G2L["84"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["84"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["84"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["84"]["Text"] = [[Tiger Admin]];
-G2L["84"]["Name"] = [[TigerAdminLabel]];
-G2L["84"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
+G2L["7e"] = Instance.new("TextLabel", G2L["6b"]);
+G2L["7e"]["TextWrapped"] = true;
+G2L["7e"]["BorderSizePixel"] = 0;
+G2L["7e"]["TextScaled"] = true;
+G2L["7e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7e"]["TextSize"] = 14;
+G2L["7e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["7e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7e"]["Text"] = [[Tiger Admin]];
+G2L["7e"]["Name"] = [[TigerAdminLabel]];
+G2L["7e"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.UIStroke
-G2L["85"] = Instance.new("UIStroke", G2L["84"]);
-G2L["85"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["85"]["Thickness"] = 2.5;
+G2L["7f"] = Instance.new("UIStroke", G2L["7e"]);
+G2L["7f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["7f"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.ImageLabel
-G2L["86"] = Instance.new("ImageLabel", G2L["84"]);
-G2L["86"]["BorderSizePixel"] = 0;
-G2L["86"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["86"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["86"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["86"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["86"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["80"] = Instance.new("ImageLabel", G2L["7e"]);
+G2L["80"]["BorderSizePixel"] = 0;
+G2L["80"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["80"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["80"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["80"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.ImageLabel.UIStroke
-G2L["87"] = Instance.new("UIStroke", G2L["86"]);
-G2L["87"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["87"]["Thickness"] = 2.5;
+G2L["81"] = Instance.new("UIStroke", G2L["80"]);
+G2L["81"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["81"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.TigerAdminButton
-G2L["88"] = Instance.new("TextButton", G2L["84"]);
-G2L["88"]["TextWrapped"] = true;
-G2L["88"]["BorderSizePixel"] = 0;
-G2L["88"]["TextSize"] = 14;
-G2L["88"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["88"]["TextScaled"] = true;
-G2L["88"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["88"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["88"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["88"]["Name"] = [[TigerAdminButton]];
-G2L["88"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["88"]["Text"] = [[Execute]];
-G2L["88"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["82"] = Instance.new("TextButton", G2L["7e"]);
+G2L["82"]["TextWrapped"] = true;
+G2L["82"]["BorderSizePixel"] = 0;
+G2L["82"]["TextSize"] = 14;
+G2L["82"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["82"]["TextScaled"] = true;
+G2L["82"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["82"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["82"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["82"]["Name"] = [[TigerAdminButton]];
+G2L["82"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["82"]["Text"] = [[Execute]];
+G2L["82"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.TigerAdminButton.UICorner
-G2L["89"] = Instance.new("UICorner", G2L["88"]);
+G2L["83"] = Instance.new("UICorner", G2L["82"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.TigerAdminButton.UIStroke
-G2L["8a"] = Instance.new("UIStroke", G2L["88"]);
-G2L["8a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["8a"]["Thickness"] = 2.5;
+G2L["84"] = Instance.new("UIStroke", G2L["82"]);
+G2L["84"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["84"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.TigerAdminButton.UIGradient
-G2L["8b"] = Instance.new("UIGradient", G2L["88"]);
-G2L["8b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["85"] = Instance.new("UIGradient", G2L["82"]);
+G2L["85"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.TigerAdminButton.LocalScript
-G2L["8c"] = Instance.new("LocalScript", G2L["88"]);
+G2L["86"] = Instance.new("LocalScript", G2L["82"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.UIGradient
-G2L["8d"] = Instance.new("UIGradient", G2L["84"]);
-G2L["8d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["87"] = Instance.new("UIGradient", G2L["7e"]);
+G2L["87"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.UIAspectRatioConstraint
+G2L["88"] = Instance.new("UIAspectRatioConstraint", G2L["6b"]);
+G2L["88"]["AspectRatio"] = 1.43539;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame
-G2L["8e"] = Instance.new("Frame", G2L["2"]);
-G2L["8e"]["Visible"] = false;
-G2L["8e"]["BorderSizePixel"] = 0;
-G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8e"]["Size"] = UDim2.new(0, 511, 0, 356);
-G2L["8e"]["Position"] = UDim2.new(0, 0, -0.005, 0);
-G2L["8e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8e"]["Name"] = [[AimbotFrame]];
+G2L["89"] = Instance.new("Frame", G2L["2"]);
+G2L["89"]["Visible"] = false;
+G2L["89"]["BorderSizePixel"] = 0;
+G2L["89"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["89"]["Size"] = UDim2.new(0, 511, 0, 356);
+G2L["89"]["Position"] = UDim2.new(0, 0, -0.005, 0);
+G2L["89"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["89"]["Name"] = [[AimbotFrame]];
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.TitleLabel
-G2L["8f"] = Instance.new("TextLabel", G2L["8e"]);
-G2L["8f"]["TextWrapped"] = true;
-G2L["8f"]["BorderSizePixel"] = 0;
-G2L["8f"]["TextScaled"] = true;
-G2L["8f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["8f"]["TextSize"] = 14;
-G2L["8f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["8f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8f"]["Size"] = UDim2.new(0, 510, 0, 50);
-G2L["8f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8f"]["Text"] = [[Aimbot]];
-G2L["8f"]["Name"] = [[TitleLabel]];
-G2L["8f"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
+G2L["8a"] = Instance.new("TextLabel", G2L["89"]);
+G2L["8a"]["TextWrapped"] = true;
+G2L["8a"]["BorderSizePixel"] = 0;
+G2L["8a"]["TextScaled"] = true;
+G2L["8a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8a"]["TextSize"] = 14;
+G2L["8a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["8a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8a"]["Size"] = UDim2.new(0, 510, 0, 50);
+G2L["8a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8a"]["Text"] = [[Aimbot]];
+G2L["8a"]["Name"] = [[TitleLabel]];
+G2L["8a"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.TitleLabel.UIStroke
-G2L["90"] = Instance.new("UIStroke", G2L["8f"]);
-G2L["90"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["90"]["Thickness"] = 2.5;
+G2L["8b"] = Instance.new("UIStroke", G2L["8a"]);
+G2L["8b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["8b"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.TitleLabel.UIGradient
-G2L["91"] = Instance.new("UIGradient", G2L["8f"]);
-G2L["91"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["8c"] = Instance.new("UIGradient", G2L["8a"]);
+G2L["8c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.TitleLabel.UIGradient.LocalScript
-G2L["92"] = Instance.new("LocalScript", G2L["91"]);
+G2L["8d"] = Instance.new("LocalScript", G2L["8c"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UIGradient
-G2L["93"] = Instance.new("UIGradient", G2L["8e"]);
-G2L["93"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
+G2L["8e"] = Instance.new("UIGradient", G2L["89"]);
+G2L["8e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UIGradient.LocalScript
-G2L["94"] = Instance.new("LocalScript", G2L["93"]);
+G2L["8f"] = Instance.new("LocalScript", G2L["8e"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UIGradient.TextLabel
-G2L["95"] = Instance.new("TextLabel", G2L["93"]);
-G2L["95"]["BorderSizePixel"] = 0;
-G2L["95"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["95"]["TextSize"] = 14;
-G2L["95"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["95"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["95"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["95"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["90"] = Instance.new("TextLabel", G2L["8e"]);
+G2L["90"]["BorderSizePixel"] = 0;
+G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["90"]["TextSize"] = 14;
+G2L["90"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["90"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["90"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["90"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel
-G2L["96"] = Instance.new("TextLabel", G2L["8e"]);
-G2L["96"]["TextWrapped"] = true;
-G2L["96"]["BorderSizePixel"] = 0;
-G2L["96"]["TextScaled"] = true;
-G2L["96"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["96"]["TextSize"] = 14;
-G2L["96"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["96"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["96"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["96"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["96"]["Text"] = [[Universal Aimbot]];
-G2L["96"]["Name"] = [[UniversalAimbotLabel]];
-G2L["96"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
+G2L["91"] = Instance.new("TextLabel", G2L["89"]);
+G2L["91"]["TextWrapped"] = true;
+G2L["91"]["BorderSizePixel"] = 0;
+G2L["91"]["TextScaled"] = true;
+G2L["91"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["91"]["TextSize"] = 14;
+G2L["91"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["91"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["91"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["91"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["91"]["Text"] = [[Universal Aimbot]];
+G2L["91"]["Name"] = [[UniversalAimbotLabel]];
+G2L["91"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.UIStroke
-G2L["97"] = Instance.new("UIStroke", G2L["96"]);
-G2L["97"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["97"]["Thickness"] = 2.5;
+G2L["92"] = Instance.new("UIStroke", G2L["91"]);
+G2L["92"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["92"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.ImageLabel
-G2L["98"] = Instance.new("ImageLabel", G2L["96"]);
-G2L["98"]["BorderSizePixel"] = 0;
-G2L["98"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["98"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["98"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["98"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["98"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["93"] = Instance.new("ImageLabel", G2L["91"]);
+G2L["93"]["BorderSizePixel"] = 0;
+G2L["93"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["93"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["93"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["93"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["93"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.ImageLabel.UIStroke
-G2L["99"] = Instance.new("UIStroke", G2L["98"]);
-G2L["99"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["99"]["Thickness"] = 2.5;
+G2L["94"] = Instance.new("UIStroke", G2L["93"]);
+G2L["94"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["94"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton
-G2L["9a"] = Instance.new("TextButton", G2L["96"]);
-G2L["9a"]["TextWrapped"] = true;
-G2L["9a"]["BorderSizePixel"] = 0;
-G2L["9a"]["TextSize"] = 14;
-G2L["9a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9a"]["TextScaled"] = true;
-G2L["9a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9a"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["9a"]["Name"] = [[UniversalAimbotButton]];
-G2L["9a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9a"]["Text"] = [[Execute]];
-G2L["9a"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["95"] = Instance.new("TextButton", G2L["91"]);
+G2L["95"]["TextWrapped"] = true;
+G2L["95"]["BorderSizePixel"] = 0;
+G2L["95"]["TextSize"] = 14;
+G2L["95"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["95"]["TextScaled"] = true;
+G2L["95"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["95"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["95"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["95"]["Name"] = [[UniversalAimbotButton]];
+G2L["95"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["95"]["Text"] = [[Execute]];
+G2L["95"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.UICorner
-G2L["9b"] = Instance.new("UICorner", G2L["9a"]);
+G2L["96"] = Instance.new("UICorner", G2L["95"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.UIStroke
-G2L["9c"] = Instance.new("UIStroke", G2L["9a"]);
-G2L["9c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["9c"]["Thickness"] = 2.5;
+G2L["97"] = Instance.new("UIStroke", G2L["95"]);
+G2L["97"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["97"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.UIGradient
-G2L["9d"] = Instance.new("UIGradient", G2L["9a"]);
-G2L["9d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["98"] = Instance.new("UIGradient", G2L["95"]);
+G2L["98"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.LocalScript
-G2L["9e"] = Instance.new("LocalScript", G2L["9a"]);
+G2L["99"] = Instance.new("LocalScript", G2L["95"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.UIGradient
-G2L["9f"] = Instance.new("UIGradient", G2L["96"]);
-G2L["9f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["9a"] = Instance.new("UIGradient", G2L["91"]);
+G2L["9a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UIStroke
-G2L["a0"] = Instance.new("UIStroke", G2L["8e"]);
-G2L["a0"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["a0"]["Thickness"] = 2.5;
+G2L["9b"] = Instance.new("UIStroke", G2L["89"]);
+G2L["9b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["9b"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel
-G2L["a1"] = Instance.new("TextLabel", G2L["8e"]);
-G2L["a1"]["TextWrapped"] = true;
-G2L["a1"]["BorderSizePixel"] = 0;
-G2L["a1"]["TextScaled"] = true;
-G2L["a1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a1"]["TextSize"] = 14;
-G2L["a1"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a1"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a1"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["a1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a1"]["Text"] = [[Unnamed ESP]];
-G2L["a1"]["Name"] = [[UnnamedESPLabel]];
-G2L["a1"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
+G2L["9c"] = Instance.new("TextLabel", G2L["89"]);
+G2L["9c"]["TextWrapped"] = true;
+G2L["9c"]["BorderSizePixel"] = 0;
+G2L["9c"]["TextScaled"] = true;
+G2L["9c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9c"]["TextSize"] = 14;
+G2L["9c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9c"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["9c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9c"]["Text"] = [[Unnamed ESP]];
+G2L["9c"]["Name"] = [[UnnamedESPLabel]];
+G2L["9c"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.UIStroke
-G2L["a2"] = Instance.new("UIStroke", G2L["a1"]);
-G2L["a2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["a2"]["Thickness"] = 2.5;
+G2L["9d"] = Instance.new("UIStroke", G2L["9c"]);
+G2L["9d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["9d"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.ImageLabel
-G2L["a3"] = Instance.new("ImageLabel", G2L["a1"]);
-G2L["a3"]["BorderSizePixel"] = 0;
-G2L["a3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a3"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["a3"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a3"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["9e"] = Instance.new("ImageLabel", G2L["9c"]);
+G2L["9e"]["BorderSizePixel"] = 0;
+G2L["9e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9e"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["9e"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["9e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9e"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.ImageLabel.UIStroke
-G2L["a4"] = Instance.new("UIStroke", G2L["a3"]);
-G2L["a4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["a4"]["Thickness"] = 2.5;
+G2L["9f"] = Instance.new("UIStroke", G2L["9e"]);
+G2L["9f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["9f"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton
-G2L["a5"] = Instance.new("TextButton", G2L["a1"]);
-G2L["a5"]["TextWrapped"] = true;
-G2L["a5"]["BorderSizePixel"] = 0;
-G2L["a5"]["TextSize"] = 14;
-G2L["a5"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a5"]["TextScaled"] = true;
-G2L["a5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a5"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a5"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["a5"]["Name"] = [[UnnamedESPButton]];
-G2L["a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a5"]["Text"] = [[Execute]];
-G2L["a5"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["a0"] = Instance.new("TextButton", G2L["9c"]);
+G2L["a0"]["TextWrapped"] = true;
+G2L["a0"]["BorderSizePixel"] = 0;
+G2L["a0"]["TextSize"] = 14;
+G2L["a0"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a0"]["TextScaled"] = true;
+G2L["a0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a0"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a0"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["a0"]["Name"] = [[UnnamedESPButton]];
+G2L["a0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a0"]["Text"] = [[Execute]];
+G2L["a0"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.UICorner
-G2L["a6"] = Instance.new("UICorner", G2L["a5"]);
+G2L["a1"] = Instance.new("UICorner", G2L["a0"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.UIStroke
-G2L["a7"] = Instance.new("UIStroke", G2L["a5"]);
-G2L["a7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["a7"]["Thickness"] = 2.5;
+G2L["a2"] = Instance.new("UIStroke", G2L["a0"]);
+G2L["a2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["a2"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.UIGradient
-G2L["a8"] = Instance.new("UIGradient", G2L["a5"]);
-G2L["a8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["a3"] = Instance.new("UIGradient", G2L["a0"]);
+G2L["a3"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.LocalScript
-G2L["a9"] = Instance.new("LocalScript", G2L["a5"]);
+G2L["a4"] = Instance.new("LocalScript", G2L["a0"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.UIGradient
-G2L["aa"] = Instance.new("UIGradient", G2L["a1"]);
-G2L["aa"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["a5"] = Instance.new("UIGradient", G2L["9c"]);
+G2L["a5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UIAspectRatioConstraint
+G2L["a6"] = Instance.new("UIAspectRatioConstraint", G2L["89"]);
+G2L["a6"]["AspectRatio"] = 1.43539;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame
-G2L["ab"] = Instance.new("Frame", G2L["2"]);
-G2L["ab"]["Visible"] = false;
-G2L["ab"]["BorderSizePixel"] = 0;
-G2L["ab"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ab"]["Size"] = UDim2.new(0, 511, 0, 356);
-G2L["ab"]["Position"] = UDim2.new(0, 0, -0.005, 0);
-G2L["ab"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ab"]["Name"] = [[UniversalFrame]];
+G2L["a7"] = Instance.new("Frame", G2L["2"]);
+G2L["a7"]["Visible"] = false;
+G2L["a7"]["BorderSizePixel"] = 0;
+G2L["a7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a7"]["Size"] = UDim2.new(0, 511, 0, 356);
+G2L["a7"]["Position"] = UDim2.new(0, 0, -0.005, 0);
+G2L["a7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a7"]["Name"] = [[UniversalFrame]];
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.TitleLabel
-G2L["ac"] = Instance.new("TextLabel", G2L["ab"]);
-G2L["ac"]["TextWrapped"] = true;
-G2L["ac"]["BorderSizePixel"] = 0;
-G2L["ac"]["TextScaled"] = true;
-G2L["ac"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ac"]["TextSize"] = 14;
-G2L["ac"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["ac"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ac"]["Size"] = UDim2.new(0, 510, 0, 50);
-G2L["ac"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ac"]["Text"] = [[Universal]];
-G2L["ac"]["Name"] = [[TitleLabel]];
-G2L["ac"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
+G2L["a8"] = Instance.new("TextLabel", G2L["a7"]);
+G2L["a8"]["TextWrapped"] = true;
+G2L["a8"]["BorderSizePixel"] = 0;
+G2L["a8"]["TextScaled"] = true;
+G2L["a8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a8"]["TextSize"] = 14;
+G2L["a8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a8"]["Size"] = UDim2.new(0, 510, 0, 50);
+G2L["a8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a8"]["Text"] = [[Universal]];
+G2L["a8"]["Name"] = [[TitleLabel]];
+G2L["a8"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.TitleLabel.UIStroke
-G2L["ad"] = Instance.new("UIStroke", G2L["ac"]);
-G2L["ad"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["ad"]["Thickness"] = 2.5;
+G2L["a9"] = Instance.new("UIStroke", G2L["a8"]);
+G2L["a9"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["a9"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.TitleLabel.UIGradient
-G2L["ae"] = Instance.new("UIGradient", G2L["ac"]);
-G2L["ae"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["aa"] = Instance.new("UIGradient", G2L["a8"]);
+G2L["aa"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.TitleLabel.UIGradient.LocalScript
-G2L["af"] = Instance.new("LocalScript", G2L["ae"]);
+G2L["ab"] = Instance.new("LocalScript", G2L["aa"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.UIGradient
-G2L["b0"] = Instance.new("UIGradient", G2L["ab"]);
-G2L["b0"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
+G2L["ac"] = Instance.new("UIGradient", G2L["a7"]);
+G2L["ac"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.UIGradient.LocalScript
-G2L["b1"] = Instance.new("LocalScript", G2L["b0"]);
+G2L["ad"] = Instance.new("LocalScript", G2L["ac"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.UIGradient.TextLabel
-G2L["b2"] = Instance.new("TextLabel", G2L["b0"]);
-G2L["b2"]["BorderSizePixel"] = 0;
-G2L["b2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b2"]["TextSize"] = 14;
-G2L["b2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b2"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["b2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ae"] = Instance.new("TextLabel", G2L["ac"]);
+G2L["ae"]["BorderSizePixel"] = 0;
+G2L["ae"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ae"]["TextSize"] = 14;
+G2L["ae"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ae"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ae"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["ae"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel
-G2L["b3"] = Instance.new("TextLabel", G2L["ab"]);
-G2L["b3"]["TextWrapped"] = true;
-G2L["b3"]["BorderSizePixel"] = 0;
-G2L["b3"]["TextScaled"] = true;
-G2L["b3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b3"]["TextSize"] = 14;
-G2L["b3"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b3"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b3"]["Text"] = [[Infinite Yield (Universal)]];
-G2L["b3"]["Name"] = [[IYLabel]];
-G2L["b3"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
+G2L["af"] = Instance.new("TextLabel", G2L["a7"]);
+G2L["af"]["TextWrapped"] = true;
+G2L["af"]["BorderSizePixel"] = 0;
+G2L["af"]["TextScaled"] = true;
+G2L["af"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["af"]["TextSize"] = 14;
+G2L["af"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["af"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["af"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["af"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["af"]["Text"] = [[Infinite Yield (Universal)]];
+G2L["af"]["Name"] = [[IYLabel]];
+G2L["af"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.UIStroke
-G2L["b4"] = Instance.new("UIStroke", G2L["b3"]);
-G2L["b4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["b4"]["Thickness"] = 2.5;
+G2L["b0"] = Instance.new("UIStroke", G2L["af"]);
+G2L["b0"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["b0"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.ImageLabel
-G2L["b5"] = Instance.new("ImageLabel", G2L["b3"]);
-G2L["b5"]["BorderSizePixel"] = 0;
-G2L["b5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b5"]["Image"] = [[rbxassetid://18599835500]];
-G2L["b5"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["b5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b5"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["b1"] = Instance.new("ImageLabel", G2L["af"]);
+G2L["b1"]["BorderSizePixel"] = 0;
+G2L["b1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b1"]["Image"] = [[rbxassetid://18599835500]];
+G2L["b1"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b1"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.ImageLabel.UIStroke
-G2L["b6"] = Instance.new("UIStroke", G2L["b5"]);
-G2L["b6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["b6"]["Thickness"] = 2.5;
+G2L["b2"] = Instance.new("UIStroke", G2L["b1"]);
+G2L["b2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["b2"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.IYButton
-G2L["b7"] = Instance.new("TextButton", G2L["b3"]);
-G2L["b7"]["TextWrapped"] = true;
-G2L["b7"]["BorderSizePixel"] = 0;
-G2L["b7"]["TextSize"] = 14;
-G2L["b7"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b7"]["TextScaled"] = true;
-G2L["b7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b7"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b7"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["b7"]["Name"] = [[IYButton]];
-G2L["b7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b7"]["Text"] = [[Execute]];
-G2L["b7"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["b3"] = Instance.new("TextButton", G2L["af"]);
+G2L["b3"]["TextWrapped"] = true;
+G2L["b3"]["BorderSizePixel"] = 0;
+G2L["b3"]["TextSize"] = 14;
+G2L["b3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b3"]["TextScaled"] = true;
+G2L["b3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b3"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b3"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["b3"]["Name"] = [[IYButton]];
+G2L["b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b3"]["Text"] = [[Execute]];
+G2L["b3"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.IYButton.UICorner
-G2L["b8"] = Instance.new("UICorner", G2L["b7"]);
+G2L["b4"] = Instance.new("UICorner", G2L["b3"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.IYButton.UIStroke
-G2L["b9"] = Instance.new("UIStroke", G2L["b7"]);
-G2L["b9"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["b9"]["Thickness"] = 2.5;
+G2L["b5"] = Instance.new("UIStroke", G2L["b3"]);
+G2L["b5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["b5"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.IYButton.UIGradient
-G2L["ba"] = Instance.new("UIGradient", G2L["b7"]);
-G2L["ba"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["b6"] = Instance.new("UIGradient", G2L["b3"]);
+G2L["b6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.IYButton.LocalScript
-G2L["bb"] = Instance.new("LocalScript", G2L["b7"]);
+G2L["b7"] = Instance.new("LocalScript", G2L["b3"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.UIGradient
-G2L["bc"] = Instance.new("UIGradient", G2L["b3"]);
-G2L["bc"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["b8"] = Instance.new("UIGradient", G2L["af"]);
+G2L["b8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.UIStroke
-G2L["bd"] = Instance.new("UIStroke", G2L["ab"]);
+G2L["b9"] = Instance.new("UIStroke", G2L["a7"]);
+G2L["b9"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["b9"]["Thickness"] = 2.5;
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label
+G2L["ba"] = Instance.new("TextLabel", G2L["a7"]);
+G2L["ba"]["TextWrapped"] = true;
+G2L["ba"]["BorderSizePixel"] = 0;
+G2L["ba"]["TextScaled"] = true;
+G2L["ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ba"]["TextSize"] = 14;
+G2L["ba"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ba"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ba"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ba"]["Text"] = [[Dex v4 (Universal)]];
+G2L["ba"]["Name"] = [[Dexv4Label]];
+G2L["ba"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.UIStroke
+G2L["bb"] = Instance.new("UIStroke", G2L["ba"]);
+G2L["bb"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["bb"]["Thickness"] = 2.5;
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.ImageLabel
+G2L["bc"] = Instance.new("ImageLabel", G2L["ba"]);
+G2L["bc"]["BorderSizePixel"] = 0;
+G2L["bc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bc"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["bc"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["bc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bc"]["Position"] = UDim2.new(0, 0, 1, 0);
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.ImageLabel.UIStroke
+G2L["bd"] = Instance.new("UIStroke", G2L["bc"]);
 G2L["bd"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["bd"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label
-G2L["be"] = Instance.new("TextLabel", G2L["ab"]);
+-- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.Dexv4Button
+G2L["be"] = Instance.new("TextButton", G2L["ba"]);
 G2L["be"]["TextWrapped"] = true;
 G2L["be"]["BorderSizePixel"] = 0;
+G2L["be"]["TextSize"] = 14;
+G2L["be"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["be"]["TextScaled"] = true;
 G2L["be"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["be"]["TextSize"] = 14;
 G2L["be"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["be"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["be"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["be"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["be"]["Name"] = [[Dexv4Button]];
 G2L["be"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["be"]["Text"] = [[Dex v4 (Universal)]];
-G2L["be"]["Name"] = [[Dexv4Label]];
-G2L["be"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
-
--- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.UIStroke
-G2L["bf"] = Instance.new("UIStroke", G2L["be"]);
-G2L["bf"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["bf"]["Thickness"] = 2.5;
-
--- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.ImageLabel
-G2L["c0"] = Instance.new("ImageLabel", G2L["be"]);
-G2L["c0"]["BorderSizePixel"] = 0;
-G2L["c0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c0"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["c0"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c0"]["Position"] = UDim2.new(0, 0, 1, 0);
-
--- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.ImageLabel.UIStroke
-G2L["c1"] = Instance.new("UIStroke", G2L["c0"]);
-G2L["c1"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["c1"]["Thickness"] = 2.5;
-
--- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.Dexv4Button
-G2L["c2"] = Instance.new("TextButton", G2L["be"]);
-G2L["c2"]["TextWrapped"] = true;
-G2L["c2"]["BorderSizePixel"] = 0;
-G2L["c2"]["TextSize"] = 14;
-G2L["c2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c2"]["TextScaled"] = true;
-G2L["c2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c2"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c2"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["c2"]["Name"] = [[Dexv4Button]];
-G2L["c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c2"]["Text"] = [[Execute]];
-G2L["c2"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["be"]["Text"] = [[Execute]];
+G2L["be"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.Dexv4Button.UICorner
-G2L["c3"] = Instance.new("UICorner", G2L["c2"]);
+G2L["bf"] = Instance.new("UICorner", G2L["be"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.Dexv4Button.UIStroke
-G2L["c4"] = Instance.new("UIStroke", G2L["c2"]);
-G2L["c4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["c4"]["Thickness"] = 2.5;
+G2L["c0"] = Instance.new("UIStroke", G2L["be"]);
+G2L["c0"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["c0"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.Dexv4Button.UIGradient
-G2L["c5"] = Instance.new("UIGradient", G2L["c2"]);
-G2L["c5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["c1"] = Instance.new("UIGradient", G2L["be"]);
+G2L["c1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.Dexv4Button.LocalScript
-G2L["c6"] = Instance.new("LocalScript", G2L["c2"]);
+G2L["c2"] = Instance.new("LocalScript", G2L["be"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.UIGradient
-G2L["c7"] = Instance.new("UIGradient", G2L["be"]);
-G2L["c7"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["c3"] = Instance.new("UIGradient", G2L["ba"]);
+G2L["c3"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel
-G2L["c8"] = Instance.new("TextLabel", G2L["ab"]);
-G2L["c8"]["TextWrapped"] = true;
-G2L["c8"]["BorderSizePixel"] = 0;
-G2L["c8"]["TextScaled"] = true;
-G2L["c8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c8"]["TextSize"] = 14;
-G2L["c8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c8"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c8"]["Text"] = [[Remote Spy (Universal)]];
-G2L["c8"]["Name"] = [[RemoteSpyLabel]];
-G2L["c8"]["Position"] = UDim2.new(0.01761, 0, 0.60393, 0);
+G2L["c4"] = Instance.new("TextLabel", G2L["a7"]);
+G2L["c4"]["TextWrapped"] = true;
+G2L["c4"]["BorderSizePixel"] = 0;
+G2L["c4"]["TextScaled"] = true;
+G2L["c4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c4"]["TextSize"] = 14;
+G2L["c4"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c4"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["c4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c4"]["Text"] = [[Remote Spy (Universal)]];
+G2L["c4"]["Name"] = [[RemoteSpyLabel]];
+G2L["c4"]["Position"] = UDim2.new(0.01761, 0, 0.60393, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.UIStroke
-G2L["c9"] = Instance.new("UIStroke", G2L["c8"]);
-G2L["c9"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["c9"]["Thickness"] = 2.5;
+G2L["c5"] = Instance.new("UIStroke", G2L["c4"]);
+G2L["c5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["c5"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.ImageLabel
-G2L["ca"] = Instance.new("ImageLabel", G2L["c8"]);
-G2L["ca"]["BorderSizePixel"] = 0;
-G2L["ca"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ca"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ca"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["c6"] = Instance.new("ImageLabel", G2L["c4"]);
+G2L["c6"]["BorderSizePixel"] = 0;
+G2L["c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c6"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c6"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.ImageLabel.UIStroke
-G2L["cb"] = Instance.new("UIStroke", G2L["ca"]);
-G2L["cb"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["cb"]["Thickness"] = 2.5;
+G2L["c7"] = Instance.new("UIStroke", G2L["c6"]);
+G2L["c7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["c7"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.RemoteSpyButton
-G2L["cc"] = Instance.new("TextButton", G2L["c8"]);
-G2L["cc"]["TextWrapped"] = true;
-G2L["cc"]["BorderSizePixel"] = 0;
-G2L["cc"]["TextSize"] = 14;
-G2L["cc"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cc"]["TextScaled"] = true;
-G2L["cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cc"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["cc"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["cc"]["Name"] = [[RemoteSpyButton]];
-G2L["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cc"]["Text"] = [[Execute]];
-G2L["cc"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["c8"] = Instance.new("TextButton", G2L["c4"]);
+G2L["c8"]["TextWrapped"] = true;
+G2L["c8"]["BorderSizePixel"] = 0;
+G2L["c8"]["TextSize"] = 14;
+G2L["c8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c8"]["TextScaled"] = true;
+G2L["c8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c8"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["c8"]["Name"] = [[RemoteSpyButton]];
+G2L["c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c8"]["Text"] = [[Execute]];
+G2L["c8"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.RemoteSpyButton.UICorner
-G2L["cd"] = Instance.new("UICorner", G2L["cc"]);
+G2L["c9"] = Instance.new("UICorner", G2L["c8"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.RemoteSpyButton.UIStroke
-G2L["ce"] = Instance.new("UIStroke", G2L["cc"]);
-G2L["ce"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["ce"]["Thickness"] = 2.5;
+G2L["ca"] = Instance.new("UIStroke", G2L["c8"]);
+G2L["ca"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ca"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.RemoteSpyButton.UIGradient
-G2L["cf"] = Instance.new("UIGradient", G2L["cc"]);
-G2L["cf"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["cb"] = Instance.new("UIGradient", G2L["c8"]);
+G2L["cb"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.RemoteSpyButton.LocalScript
-G2L["d0"] = Instance.new("LocalScript", G2L["cc"]);
+G2L["cc"] = Instance.new("LocalScript", G2L["c8"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.UIGradient
-G2L["d1"] = Instance.new("UIGradient", G2L["c8"]);
-G2L["d1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["cd"] = Instance.new("UIGradient", G2L["c4"]);
+G2L["cd"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel
-G2L["d2"] = Instance.new("TextLabel", G2L["ab"]);
-G2L["d2"]["TextWrapped"] = true;
-G2L["d2"]["BorderSizePixel"] = 0;
-G2L["d2"]["TextScaled"] = true;
-G2L["d2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d2"]["TextSize"] = 14;
-G2L["d2"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d2"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["d2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d2"]["Text"] = [[Hydroxide (Universal)]];
-G2L["d2"]["Name"] = [[HydroxideLabel]];
-G2L["d2"]["Position"] = UDim2.new(0.57339, 0, 0.60393, 0);
+G2L["ce"] = Instance.new("TextLabel", G2L["a7"]);
+G2L["ce"]["TextWrapped"] = true;
+G2L["ce"]["BorderSizePixel"] = 0;
+G2L["ce"]["TextScaled"] = true;
+G2L["ce"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ce"]["TextSize"] = 14;
+G2L["ce"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ce"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ce"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["ce"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ce"]["Text"] = [[Hydroxide (Universal)]];
+G2L["ce"]["Name"] = [[HydroxideLabel]];
+G2L["ce"]["Position"] = UDim2.new(0.57339, 0, 0.60393, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.UIStroke
-G2L["d3"] = Instance.new("UIStroke", G2L["d2"]);
-G2L["d3"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["d3"]["Thickness"] = 2.5;
+G2L["cf"] = Instance.new("UIStroke", G2L["ce"]);
+G2L["cf"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["cf"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.ImageLabel
-G2L["d4"] = Instance.new("ImageLabel", G2L["d2"]);
-G2L["d4"]["BorderSizePixel"] = 0;
-G2L["d4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d4"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["d4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d4"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["d0"] = Instance.new("ImageLabel", G2L["ce"]);
+G2L["d0"]["BorderSizePixel"] = 0;
+G2L["d0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d0"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d0"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.ImageLabel.UIStroke
-G2L["d5"] = Instance.new("UIStroke", G2L["d4"]);
-G2L["d5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["d5"]["Thickness"] = 2.5;
+G2L["d1"] = Instance.new("UIStroke", G2L["d0"]);
+G2L["d1"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["d1"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.HydroxideButton
-G2L["d6"] = Instance.new("TextButton", G2L["d2"]);
-G2L["d6"]["TextWrapped"] = true;
-G2L["d6"]["BorderSizePixel"] = 0;
-G2L["d6"]["TextSize"] = 14;
-G2L["d6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d6"]["TextScaled"] = true;
-G2L["d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d6"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d6"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["d6"]["Name"] = [[HydroxideButton]];
-G2L["d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d6"]["Text"] = [[Execute]];
-G2L["d6"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["d2"] = Instance.new("TextButton", G2L["ce"]);
+G2L["d2"]["TextWrapped"] = true;
+G2L["d2"]["BorderSizePixel"] = 0;
+G2L["d2"]["TextSize"] = 14;
+G2L["d2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d2"]["TextScaled"] = true;
+G2L["d2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d2"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d2"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["d2"]["Name"] = [[HydroxideButton]];
+G2L["d2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d2"]["Text"] = [[Execute]];
+G2L["d2"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.HydroxideButton.UICorner
-G2L["d7"] = Instance.new("UICorner", G2L["d6"]);
+G2L["d3"] = Instance.new("UICorner", G2L["d2"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.HydroxideButton.UIStroke
-G2L["d8"] = Instance.new("UIStroke", G2L["d6"]);
-G2L["d8"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["d8"]["Thickness"] = 2.5;
+G2L["d4"] = Instance.new("UIStroke", G2L["d2"]);
+G2L["d4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["d4"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.HydroxideButton.UIGradient
-G2L["d9"] = Instance.new("UIGradient", G2L["d6"]);
-G2L["d9"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["d5"] = Instance.new("UIGradient", G2L["d2"]);
+G2L["d5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.HydroxideButton.LocalScript
-G2L["da"] = Instance.new("LocalScript", G2L["d6"]);
+G2L["d6"] = Instance.new("LocalScript", G2L["d2"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.UIGradient
-G2L["db"] = Instance.new("UIGradient", G2L["d2"]);
-G2L["db"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["d7"] = Instance.new("UIGradient", G2L["ce"]);
+G2L["d7"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.UIAspectRatioConstraint
+G2L["d8"] = Instance.new("UIAspectRatioConstraint", G2L["a7"]);
+G2L["d8"]["AspectRatio"] = 1.43539;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame
-G2L["dc"] = Instance.new("Frame", G2L["2"]);
-G2L["dc"]["Visible"] = false;
-G2L["dc"]["BorderSizePixel"] = 0;
-G2L["dc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dc"]["Size"] = UDim2.new(0, 511, 0, 356);
-G2L["dc"]["Position"] = UDim2.new(0, 0, -0.005, 0);
-G2L["dc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["dc"]["Name"] = [[HubsFrame]];
+G2L["d9"] = Instance.new("Frame", G2L["2"]);
+G2L["d9"]["Visible"] = false;
+G2L["d9"]["BorderSizePixel"] = 0;
+G2L["d9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d9"]["Size"] = UDim2.new(0, 511, 0, 356);
+G2L["d9"]["Position"] = UDim2.new(0, 0, -0.005, 0);
+G2L["d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d9"]["Name"] = [[HubsFrame]];
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.TitleLabel
-G2L["dd"] = Instance.new("TextLabel", G2L["dc"]);
-G2L["dd"]["TextWrapped"] = true;
-G2L["dd"]["BorderSizePixel"] = 0;
-G2L["dd"]["TextScaled"] = true;
-G2L["dd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["dd"]["TextSize"] = 14;
-G2L["dd"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["dd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["dd"]["Size"] = UDim2.new(0, 510, 0, 50);
-G2L["dd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["dd"]["Text"] = [[Hubs]];
-G2L["dd"]["Name"] = [[TitleLabel]];
-G2L["dd"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
+G2L["da"] = Instance.new("TextLabel", G2L["d9"]);
+G2L["da"]["TextWrapped"] = true;
+G2L["da"]["BorderSizePixel"] = 0;
+G2L["da"]["TextScaled"] = true;
+G2L["da"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["da"]["TextSize"] = 14;
+G2L["da"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["da"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["da"]["Size"] = UDim2.new(0, 510, 0, 50);
+G2L["da"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["da"]["Text"] = [[Hubs]];
+G2L["da"]["Name"] = [[TitleLabel]];
+G2L["da"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.TitleLabel.UIStroke
-G2L["de"] = Instance.new("UIStroke", G2L["dd"]);
-G2L["de"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["de"]["Thickness"] = 2.5;
+G2L["db"] = Instance.new("UIStroke", G2L["da"]);
+G2L["db"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["db"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.TitleLabel.UIGradient
-G2L["df"] = Instance.new("UIGradient", G2L["dd"]);
-G2L["df"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["dc"] = Instance.new("UIGradient", G2L["da"]);
+G2L["dc"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.TitleLabel.UIGradient.LocalScript
-G2L["e0"] = Instance.new("LocalScript", G2L["df"]);
+G2L["dd"] = Instance.new("LocalScript", G2L["dc"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.UIGradient
-G2L["e1"] = Instance.new("UIGradient", G2L["dc"]);
-G2L["e1"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
+G2L["de"] = Instance.new("UIGradient", G2L["d9"]);
+G2L["de"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.UIGradient.LocalScript
-G2L["e2"] = Instance.new("LocalScript", G2L["e1"]);
+G2L["df"] = Instance.new("LocalScript", G2L["de"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.UIGradient.TextLabel
-G2L["e3"] = Instance.new("TextLabel", G2L["e1"]);
-G2L["e3"]["BorderSizePixel"] = 0;
-G2L["e3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e3"]["TextSize"] = 14;
-G2L["e3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e3"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e0"] = Instance.new("TextLabel", G2L["de"]);
+G2L["e0"]["BorderSizePixel"] = 0;
+G2L["e0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e0"]["TextSize"] = 14;
+G2L["e0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e0"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e0"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel
-G2L["e4"] = Instance.new("TextLabel", G2L["dc"]);
-G2L["e4"]["TextWrapped"] = true;
-G2L["e4"]["BorderSizePixel"] = 0;
-G2L["e4"]["TextScaled"] = true;
-G2L["e4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e4"]["TextSize"] = 14;
-G2L["e4"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e4"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e4"]["Text"] = [[Yarhm Hub]];
-G2L["e4"]["Name"] = [[YarhmHubLabel]];
-G2L["e4"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
+G2L["e1"] = Instance.new("TextLabel", G2L["d9"]);
+G2L["e1"]["TextWrapped"] = true;
+G2L["e1"]["BorderSizePixel"] = 0;
+G2L["e1"]["TextScaled"] = true;
+G2L["e1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e1"]["TextSize"] = 14;
+G2L["e1"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e1"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e1"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["e1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e1"]["Text"] = [[Yarhm Hub]];
+G2L["e1"]["Name"] = [[YarhmHubLabel]];
+G2L["e1"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.UIStroke
-G2L["e5"] = Instance.new("UIStroke", G2L["e4"]);
-G2L["e5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["e5"]["Thickness"] = 2.5;
+G2L["e2"] = Instance.new("UIStroke", G2L["e1"]);
+G2L["e2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["e2"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.ImageLabel
-G2L["e6"] = Instance.new("ImageLabel", G2L["e4"]);
-G2L["e6"]["BorderSizePixel"] = 0;
-G2L["e6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e6"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["e6"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["e6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e6"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["e3"] = Instance.new("ImageLabel", G2L["e1"]);
+G2L["e3"]["BorderSizePixel"] = 0;
+G2L["e3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e3"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["e3"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e3"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.ImageLabel.UIStroke
-G2L["e7"] = Instance.new("UIStroke", G2L["e6"]);
-G2L["e7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["e7"]["Thickness"] = 2.5;
+G2L["e4"] = Instance.new("UIStroke", G2L["e3"]);
+G2L["e4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["e4"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.YarhmHubButton
-G2L["e8"] = Instance.new("TextButton", G2L["e4"]);
-G2L["e8"]["TextWrapped"] = true;
-G2L["e8"]["BorderSizePixel"] = 0;
-G2L["e8"]["TextSize"] = 14;
-G2L["e8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e8"]["TextScaled"] = true;
-G2L["e8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["e8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["e8"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["e8"]["Name"] = [[YarhmHubButton]];
-G2L["e8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["e8"]["Text"] = [[Execute]];
-G2L["e8"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["e5"] = Instance.new("TextButton", G2L["e1"]);
+G2L["e5"]["TextWrapped"] = true;
+G2L["e5"]["BorderSizePixel"] = 0;
+G2L["e5"]["TextSize"] = 14;
+G2L["e5"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e5"]["TextScaled"] = true;
+G2L["e5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e5"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e5"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["e5"]["Name"] = [[YarhmHubButton]];
+G2L["e5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e5"]["Text"] = [[Execute]];
+G2L["e5"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.YarhmHubButton.UICorner
-G2L["e9"] = Instance.new("UICorner", G2L["e8"]);
+G2L["e6"] = Instance.new("UICorner", G2L["e5"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.YarhmHubButton.UIStroke
-G2L["ea"] = Instance.new("UIStroke", G2L["e8"]);
-G2L["ea"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["ea"]["Thickness"] = 2.5;
+G2L["e7"] = Instance.new("UIStroke", G2L["e5"]);
+G2L["e7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["e7"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.YarhmHubButton.UIGradient
-G2L["eb"] = Instance.new("UIGradient", G2L["e8"]);
-G2L["eb"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["e8"] = Instance.new("UIGradient", G2L["e5"]);
+G2L["e8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.YarhmHubButton.LocalScript
-G2L["ec"] = Instance.new("LocalScript", G2L["e8"]);
+G2L["e9"] = Instance.new("LocalScript", G2L["e5"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.UIGradient
-G2L["ed"] = Instance.new("UIGradient", G2L["e4"]);
-G2L["ed"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["ea"] = Instance.new("UIGradient", G2L["e1"]);
+G2L["ea"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.UIStroke
-G2L["ee"] = Instance.new("UIStroke", G2L["dc"]);
-G2L["ee"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["ee"]["Thickness"] = 2.5;
+G2L["eb"] = Instance.new("UIStroke", G2L["d9"]);
+G2L["eb"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["eb"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label
-G2L["ef"] = Instance.new("TextLabel", G2L["dc"]);
-G2L["ef"]["TextWrapped"] = true;
-G2L["ef"]["BorderSizePixel"] = 0;
-G2L["ef"]["TextScaled"] = true;
-G2L["ef"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ef"]["TextSize"] = 14;
-G2L["ef"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["ef"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ef"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["ef"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ef"]["Text"] = [[Script]];
-G2L["ef"]["Name"] = [[Label]];
-G2L["ef"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
+G2L["ec"] = Instance.new("TextLabel", G2L["d9"]);
+G2L["ec"]["TextWrapped"] = true;
+G2L["ec"]["BorderSizePixel"] = 0;
+G2L["ec"]["TextScaled"] = true;
+G2L["ec"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ec"]["TextSize"] = 14;
+G2L["ec"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ec"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ec"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["ec"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ec"]["Text"] = [[Script]];
+G2L["ec"]["Name"] = [[Label]];
+G2L["ec"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.UIStroke
-G2L["f0"] = Instance.new("UIStroke", G2L["ef"]);
-G2L["f0"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["f0"]["Thickness"] = 2.5;
+G2L["ed"] = Instance.new("UIStroke", G2L["ec"]);
+G2L["ed"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ed"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.ImageLabel
-G2L["f1"] = Instance.new("ImageLabel", G2L["ef"]);
-G2L["f1"]["BorderSizePixel"] = 0;
-G2L["f1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f1"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["f1"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["f1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f1"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["ee"] = Instance.new("ImageLabel", G2L["ec"]);
+G2L["ee"]["BorderSizePixel"] = 0;
+G2L["ee"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ee"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["ee"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["ee"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ee"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.ImageLabel.UIStroke
-G2L["f2"] = Instance.new("UIStroke", G2L["f1"]);
-G2L["f2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["f2"]["Thickness"] = 2.5;
+G2L["ef"] = Instance.new("UIStroke", G2L["ee"]);
+G2L["ef"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["ef"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.TigerAdminButton
-G2L["f3"] = Instance.new("TextButton", G2L["ef"]);
-G2L["f3"]["TextWrapped"] = true;
-G2L["f3"]["BorderSizePixel"] = 0;
-G2L["f3"]["TextSize"] = 14;
-G2L["f3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f3"]["TextScaled"] = true;
-G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f3"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f3"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["f3"]["Name"] = [[TigerAdminButton]];
-G2L["f3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f3"]["Text"] = [[Execute]];
-G2L["f3"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["f0"] = Instance.new("TextButton", G2L["ec"]);
+G2L["f0"]["TextWrapped"] = true;
+G2L["f0"]["BorderSizePixel"] = 0;
+G2L["f0"]["TextSize"] = 14;
+G2L["f0"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f0"]["TextScaled"] = true;
+G2L["f0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f0"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f0"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["f0"]["Name"] = [[TigerAdminButton]];
+G2L["f0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f0"]["Text"] = [[Execute]];
+G2L["f0"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.TigerAdminButton.UICorner
-G2L["f4"] = Instance.new("UICorner", G2L["f3"]);
+G2L["f1"] = Instance.new("UICorner", G2L["f0"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.TigerAdminButton.UIStroke
-G2L["f5"] = Instance.new("UIStroke", G2L["f3"]);
-G2L["f5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["f5"]["Thickness"] = 2.5;
+G2L["f2"] = Instance.new("UIStroke", G2L["f0"]);
+G2L["f2"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["f2"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.TigerAdminButton.UIGradient
-G2L["f6"] = Instance.new("UIGradient", G2L["f3"]);
-G2L["f6"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["f3"] = Instance.new("UIGradient", G2L["f0"]);
+G2L["f3"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.TigerAdminButton.LocalScript
-G2L["f7"] = Instance.new("LocalScript", G2L["f3"]);
+G2L["f4"] = Instance.new("LocalScript", G2L["f0"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.UIGradient
-G2L["f8"] = Instance.new("UIGradient", G2L["ef"]);
-G2L["f8"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["f5"] = Instance.new("UIGradient", G2L["ec"]);
+G2L["f5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.UIAspectRatioConstraint
+G2L["f6"] = Instance.new("UIAspectRatioConstraint", G2L["d9"]);
+G2L["f6"]["AspectRatio"] = 1.43539;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame
-G2L["f9"] = Instance.new("Frame", G2L["2"]);
-G2L["f9"]["Visible"] = false;
-G2L["f9"]["BorderSizePixel"] = 0;
-G2L["f9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f9"]["Size"] = UDim2.new(0, 511, 0, 356);
-G2L["f9"]["Position"] = UDim2.new(0, 0, -0.005, 0);
-G2L["f9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f9"]["Name"] = [[BladeBallFrame]];
+G2L["f7"] = Instance.new("Frame", G2L["2"]);
+G2L["f7"]["Visible"] = false;
+G2L["f7"]["BorderSizePixel"] = 0;
+G2L["f7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f7"]["Size"] = UDim2.new(0, 511, 0, 356);
+G2L["f7"]["Position"] = UDim2.new(0, 0, -0.005, 0);
+G2L["f7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f7"]["Name"] = [[BladeBallFrame]];
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.TitleLabel
-G2L["fa"] = Instance.new("TextLabel", G2L["f9"]);
-G2L["fa"]["TextWrapped"] = true;
-G2L["fa"]["BorderSizePixel"] = 0;
-G2L["fa"]["TextScaled"] = true;
-G2L["fa"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["fa"]["TextSize"] = 14;
-G2L["fa"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["fa"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fa"]["Size"] = UDim2.new(0, 510, 0, 50);
-G2L["fa"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["fa"]["Text"] = [[Blade Ball]];
-G2L["fa"]["Name"] = [[TitleLabel]];
-G2L["fa"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
+G2L["f8"] = Instance.new("TextLabel", G2L["f7"]);
+G2L["f8"]["TextWrapped"] = true;
+G2L["f8"]["BorderSizePixel"] = 0;
+G2L["f8"]["TextScaled"] = true;
+G2L["f8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f8"]["TextSize"] = 14;
+G2L["f8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f8"]["Size"] = UDim2.new(0, 510, 0, 50);
+G2L["f8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f8"]["Text"] = [[Blade Ball]];
+G2L["f8"]["Name"] = [[TitleLabel]];
+G2L["f8"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.TitleLabel.UIStroke
-G2L["fb"] = Instance.new("UIStroke", G2L["fa"]);
-G2L["fb"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["fb"]["Thickness"] = 2.5;
+G2L["f9"] = Instance.new("UIStroke", G2L["f8"]);
+G2L["f9"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["f9"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.TitleLabel.UIGradient
-G2L["fc"] = Instance.new("UIGradient", G2L["fa"]);
-G2L["fc"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["fa"] = Instance.new("UIGradient", G2L["f8"]);
+G2L["fa"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.TitleLabel.UIGradient.LocalScript
-G2L["fd"] = Instance.new("LocalScript", G2L["fc"]);
+G2L["fb"] = Instance.new("LocalScript", G2L["fa"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.UIGradient
-G2L["fe"] = Instance.new("UIGradient", G2L["f9"]);
-G2L["fe"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
+G2L["fc"] = Instance.new("UIGradient", G2L["f7"]);
+G2L["fc"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.UIGradient.LocalScript
-G2L["ff"] = Instance.new("LocalScript", G2L["fe"]);
+G2L["fd"] = Instance.new("LocalScript", G2L["fc"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.UIGradient.TextLabel
-G2L["100"] = Instance.new("TextLabel", G2L["fe"]);
-G2L["100"]["BorderSizePixel"] = 0;
-G2L["100"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["100"]["TextSize"] = 14;
-G2L["100"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["100"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["100"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["100"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fe"] = Instance.new("TextLabel", G2L["fc"]);
+G2L["fe"]["BorderSizePixel"] = 0;
+G2L["fe"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["fe"]["TextSize"] = 14;
+G2L["fe"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["fe"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["fe"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["fe"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label
-G2L["101"] = Instance.new("TextLabel", G2L["f9"]);
-G2L["101"]["TextWrapped"] = true;
-G2L["101"]["BorderSizePixel"] = 0;
-G2L["101"]["TextScaled"] = true;
-G2L["101"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["101"]["TextSize"] = 14;
-G2L["101"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["101"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["101"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["101"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["101"]["Text"] = [[Script]];
-G2L["101"]["Name"] = [[Label]];
-G2L["101"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
+G2L["ff"] = Instance.new("TextLabel", G2L["f7"]);
+G2L["ff"]["TextWrapped"] = true;
+G2L["ff"]["BorderSizePixel"] = 0;
+G2L["ff"]["TextScaled"] = true;
+G2L["ff"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ff"]["TextSize"] = 14;
+G2L["ff"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["ff"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ff"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["ff"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ff"]["Text"] = [[Script]];
+G2L["ff"]["Name"] = [[Label]];
+G2L["ff"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.UIStroke
+G2L["100"] = Instance.new("UIStroke", G2L["ff"]);
+G2L["100"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["100"]["Thickness"] = 2.5;
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.ImageLabel
+G2L["101"] = Instance.new("ImageLabel", G2L["ff"]);
+G2L["101"]["BorderSizePixel"] = 0;
+G2L["101"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["101"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["101"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["101"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["101"]["Position"] = UDim2.new(0, 0, 1, 0);
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.ImageLabel.UIStroke
 G2L["102"] = Instance.new("UIStroke", G2L["101"]);
 G2L["102"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["102"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.ImageLabel
-G2L["103"] = Instance.new("ImageLabel", G2L["101"]);
-G2L["103"]["BorderSizePixel"] = 0;
-G2L["103"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["103"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["103"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["103"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["103"]["Position"] = UDim2.new(0, 0, 1, 0);
-
--- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.ImageLabel.UIStroke
-G2L["104"] = Instance.new("UIStroke", G2L["103"]);
-G2L["104"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["104"]["Thickness"] = 2.5;
-
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TbaoHubButton
-G2L["105"] = Instance.new("TextButton", G2L["101"]);
-G2L["105"]["TextWrapped"] = true;
-G2L["105"]["BorderSizePixel"] = 0;
-G2L["105"]["TextSize"] = 14;
-G2L["105"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["105"]["TextScaled"] = true;
-G2L["105"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["105"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["105"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["105"]["Name"] = [[TbaoHubButton]];
-G2L["105"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["105"]["Text"] = [[Execute]];
-G2L["105"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["103"] = Instance.new("TextButton", G2L["ff"]);
+G2L["103"]["TextWrapped"] = true;
+G2L["103"]["BorderSizePixel"] = 0;
+G2L["103"]["TextSize"] = 14;
+G2L["103"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["103"]["TextScaled"] = true;
+G2L["103"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["103"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["103"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["103"]["Name"] = [[TbaoHubButton]];
+G2L["103"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["103"]["Text"] = [[Execute]];
+G2L["103"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TbaoHubButton.UICorner
-G2L["106"] = Instance.new("UICorner", G2L["105"]);
+G2L["104"] = Instance.new("UICorner", G2L["103"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TbaoHubButton.UIStroke
-G2L["107"] = Instance.new("UIStroke", G2L["105"]);
-G2L["107"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["107"]["Thickness"] = 2.5;
+G2L["105"] = Instance.new("UIStroke", G2L["103"]);
+G2L["105"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["105"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TbaoHubButton.UIGradient
-G2L["108"] = Instance.new("UIGradient", G2L["105"]);
-G2L["108"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["106"] = Instance.new("UIGradient", G2L["103"]);
+G2L["106"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TbaoHubButton.LocalScript
-G2L["109"] = Instance.new("LocalScript", G2L["105"]);
+G2L["107"] = Instance.new("LocalScript", G2L["103"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.UIGradient
-G2L["10a"] = Instance.new("UIGradient", G2L["101"]);
-G2L["10a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["108"] = Instance.new("UIGradient", G2L["ff"]);
+G2L["108"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.UIStroke
-G2L["10b"] = Instance.new("UIStroke", G2L["f9"]);
+G2L["109"] = Instance.new("UIStroke", G2L["f7"]);
+G2L["109"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["109"]["Thickness"] = 2.5;
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label
+G2L["10a"] = Instance.new("TextLabel", G2L["f7"]);
+G2L["10a"]["TextWrapped"] = true;
+G2L["10a"]["BorderSizePixel"] = 0;
+G2L["10a"]["TextScaled"] = true;
+G2L["10a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10a"]["TextSize"] = 14;
+G2L["10a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10a"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["10a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10a"]["Text"] = [[Script]];
+G2L["10a"]["Name"] = [[Label]];
+G2L["10a"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.UIStroke
+G2L["10b"] = Instance.new("UIStroke", G2L["10a"]);
 G2L["10b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["10b"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label
-G2L["10c"] = Instance.new("TextLabel", G2L["f9"]);
-G2L["10c"]["TextWrapped"] = true;
+-- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.ImageLabel
+G2L["10c"] = Instance.new("ImageLabel", G2L["10a"]);
 G2L["10c"]["BorderSizePixel"] = 0;
-G2L["10c"]["TextScaled"] = true;
 G2L["10c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10c"]["TextSize"] = 14;
-G2L["10c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["10c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10c"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["10c"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["10c"]["Size"] = UDim2.new(0, 200, 0, 100);
 G2L["10c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10c"]["Text"] = [[Script]];
-G2L["10c"]["Name"] = [[Label]];
-G2L["10c"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
+G2L["10c"]["Position"] = UDim2.new(0, 0, 1, 0);
 
--- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.UIStroke
+-- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.ImageLabel.UIStroke
 G2L["10d"] = Instance.new("UIStroke", G2L["10c"]);
 G2L["10d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["10d"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.ImageLabel
-G2L["10e"] = Instance.new("ImageLabel", G2L["10c"]);
-G2L["10e"]["BorderSizePixel"] = 0;
-G2L["10e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10e"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["10e"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["10e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10e"]["Position"] = UDim2.new(0, 0, 1, 0);
-
--- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.ImageLabel.UIStroke
-G2L["10f"] = Instance.new("UIStroke", G2L["10e"]);
-G2L["10f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["10f"]["Thickness"] = 2.5;
-
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TigerAdminButton
-G2L["110"] = Instance.new("TextButton", G2L["10c"]);
-G2L["110"]["TextWrapped"] = true;
-G2L["110"]["BorderSizePixel"] = 0;
-G2L["110"]["TextSize"] = 14;
-G2L["110"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["110"]["TextScaled"] = true;
-G2L["110"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["110"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["110"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["110"]["Name"] = [[TigerAdminButton]];
-G2L["110"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["110"]["Text"] = [[Execute]];
-G2L["110"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["10e"] = Instance.new("TextButton", G2L["10a"]);
+G2L["10e"]["TextWrapped"] = true;
+G2L["10e"]["BorderSizePixel"] = 0;
+G2L["10e"]["TextSize"] = 14;
+G2L["10e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10e"]["TextScaled"] = true;
+G2L["10e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10e"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["10e"]["Name"] = [[TigerAdminButton]];
+G2L["10e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10e"]["Text"] = [[Execute]];
+G2L["10e"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TigerAdminButton.UICorner
-G2L["111"] = Instance.new("UICorner", G2L["110"]);
+G2L["10f"] = Instance.new("UICorner", G2L["10e"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TigerAdminButton.UIStroke
-G2L["112"] = Instance.new("UIStroke", G2L["110"]);
-G2L["112"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["112"]["Thickness"] = 2.5;
+G2L["110"] = Instance.new("UIStroke", G2L["10e"]);
+G2L["110"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["110"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TigerAdminButton.UIGradient
-G2L["113"] = Instance.new("UIGradient", G2L["110"]);
-G2L["113"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["111"] = Instance.new("UIGradient", G2L["10e"]);
+G2L["111"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TigerAdminButton.LocalScript
-G2L["114"] = Instance.new("LocalScript", G2L["110"]);
+G2L["112"] = Instance.new("LocalScript", G2L["10e"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.UIGradient
-G2L["115"] = Instance.new("UIGradient", G2L["10c"]);
-G2L["115"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["113"] = Instance.new("UIGradient", G2L["10a"]);
+G2L["113"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.UIAspectRatioConstraint
+G2L["114"] = Instance.new("UIAspectRatioConstraint", G2L["f7"]);
+G2L["114"]["AspectRatio"] = 1.43539;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame
-G2L["116"] = Instance.new("Frame", G2L["2"]);
-G2L["116"]["Visible"] = false;
-G2L["116"]["BorderSizePixel"] = 0;
-G2L["116"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["116"]["Size"] = UDim2.new(0, 511, 0, 356);
-G2L["116"]["Position"] = UDim2.new(0, 0, -0.005, 0);
-G2L["116"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["116"]["Name"] = [[FunkyFridayFrame]];
+G2L["115"] = Instance.new("Frame", G2L["2"]);
+G2L["115"]["Visible"] = false;
+G2L["115"]["BorderSizePixel"] = 0;
+G2L["115"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["115"]["Size"] = UDim2.new(0, 511, 0, 356);
+G2L["115"]["Position"] = UDim2.new(0, 0, -0.005, 0);
+G2L["115"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["115"]["Name"] = [[FunkyFridayFrame]];
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.TitleLabel
-G2L["117"] = Instance.new("TextLabel", G2L["116"]);
-G2L["117"]["TextWrapped"] = true;
-G2L["117"]["BorderSizePixel"] = 0;
-G2L["117"]["TextScaled"] = true;
-G2L["117"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["117"]["TextSize"] = 14;
-G2L["117"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["117"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["117"]["Size"] = UDim2.new(0, 510, 0, 50);
-G2L["117"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["117"]["Text"] = [[Funky Friday]];
-G2L["117"]["Name"] = [[TitleLabel]];
-G2L["117"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
+G2L["116"] = Instance.new("TextLabel", G2L["115"]);
+G2L["116"]["TextWrapped"] = true;
+G2L["116"]["BorderSizePixel"] = 0;
+G2L["116"]["TextScaled"] = true;
+G2L["116"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["116"]["TextSize"] = 14;
+G2L["116"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["116"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["116"]["Size"] = UDim2.new(0, 510, 0, 50);
+G2L["116"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["116"]["Text"] = [[Funky Friday]];
+G2L["116"]["Name"] = [[TitleLabel]];
+G2L["116"]["Position"] = UDim2.new(0.00196, 0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.TitleLabel.UIStroke
-G2L["118"] = Instance.new("UIStroke", G2L["117"]);
-G2L["118"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["118"]["Thickness"] = 2.5;
+G2L["117"] = Instance.new("UIStroke", G2L["116"]);
+G2L["117"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["117"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.TitleLabel.UIGradient
-G2L["119"] = Instance.new("UIGradient", G2L["117"]);
-G2L["119"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["118"] = Instance.new("UIGradient", G2L["116"]);
+G2L["118"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.TitleLabel.UIGradient.LocalScript
-G2L["11a"] = Instance.new("LocalScript", G2L["119"]);
+G2L["119"] = Instance.new("LocalScript", G2L["118"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.UIGradient
-G2L["11b"] = Instance.new("UIGradient", G2L["116"]);
-G2L["11b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
+G2L["11a"] = Instance.new("UIGradient", G2L["115"]);
+G2L["11a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 194, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(216, 31, 255))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.UIGradient.LocalScript
-G2L["11c"] = Instance.new("LocalScript", G2L["11b"]);
+G2L["11b"] = Instance.new("LocalScript", G2L["11a"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.UIGradient.TextLabel
-G2L["11d"] = Instance.new("TextLabel", G2L["11b"]);
-G2L["11d"]["BorderSizePixel"] = 0;
-G2L["11d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11d"]["TextSize"] = 14;
-G2L["11d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["11d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11d"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["11d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11c"] = Instance.new("TextLabel", G2L["11a"]);
+G2L["11c"]["BorderSizePixel"] = 0;
+G2L["11c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11c"]["TextSize"] = 14;
+G2L["11c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11c"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["11c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label
-G2L["11e"] = Instance.new("TextLabel", G2L["116"]);
-G2L["11e"]["TextWrapped"] = true;
-G2L["11e"]["BorderSizePixel"] = 0;
-G2L["11e"]["TextScaled"] = true;
-G2L["11e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11e"]["TextSize"] = 14;
-G2L["11e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["11e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11e"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["11e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11e"]["Text"] = [[Script]];
-G2L["11e"]["Name"] = [[Label]];
-G2L["11e"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
+G2L["11d"] = Instance.new("TextLabel", G2L["115"]);
+G2L["11d"]["TextWrapped"] = true;
+G2L["11d"]["BorderSizePixel"] = 0;
+G2L["11d"]["TextScaled"] = true;
+G2L["11d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11d"]["TextSize"] = 14;
+G2L["11d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11d"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["11d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11d"]["Text"] = [[Script]];
+G2L["11d"]["Name"] = [[Label]];
+G2L["11d"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.UIStroke
-G2L["11f"] = Instance.new("UIStroke", G2L["11e"]);
-G2L["11f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["11f"]["Thickness"] = 2.5;
+G2L["11e"] = Instance.new("UIStroke", G2L["11d"]);
+G2L["11e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["11e"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.ImageLabel
-G2L["120"] = Instance.new("ImageLabel", G2L["11e"]);
-G2L["120"]["BorderSizePixel"] = 0;
-G2L["120"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["120"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["120"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["120"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["120"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["11f"] = Instance.new("ImageLabel", G2L["11d"]);
+G2L["11f"]["BorderSizePixel"] = 0;
+G2L["11f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11f"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["11f"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["11f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11f"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.ImageLabel.UIStroke
-G2L["121"] = Instance.new("UIStroke", G2L["120"]);
-G2L["121"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["121"]["Thickness"] = 2.5;
+G2L["120"] = Instance.new("UIStroke", G2L["11f"]);
+G2L["120"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["120"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TbaoHubButton
-G2L["122"] = Instance.new("TextButton", G2L["11e"]);
-G2L["122"]["TextWrapped"] = true;
-G2L["122"]["BorderSizePixel"] = 0;
-G2L["122"]["TextSize"] = 14;
-G2L["122"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["122"]["TextScaled"] = true;
-G2L["122"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["122"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["122"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["122"]["Name"] = [[TbaoHubButton]];
-G2L["122"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["122"]["Text"] = [[Execute]];
-G2L["122"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["121"] = Instance.new("TextButton", G2L["11d"]);
+G2L["121"]["TextWrapped"] = true;
+G2L["121"]["BorderSizePixel"] = 0;
+G2L["121"]["TextSize"] = 14;
+G2L["121"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["121"]["TextScaled"] = true;
+G2L["121"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["121"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["121"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["121"]["Name"] = [[TbaoHubButton]];
+G2L["121"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["121"]["Text"] = [[Execute]];
+G2L["121"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TbaoHubButton.UICorner
-G2L["123"] = Instance.new("UICorner", G2L["122"]);
+G2L["122"] = Instance.new("UICorner", G2L["121"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TbaoHubButton.UIStroke
-G2L["124"] = Instance.new("UIStroke", G2L["122"]);
-G2L["124"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["124"]["Thickness"] = 2.5;
+G2L["123"] = Instance.new("UIStroke", G2L["121"]);
+G2L["123"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["123"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TbaoHubButton.UIGradient
-G2L["125"] = Instance.new("UIGradient", G2L["122"]);
-G2L["125"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["124"] = Instance.new("UIGradient", G2L["121"]);
+G2L["124"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TbaoHubButton.LocalScript
-G2L["126"] = Instance.new("LocalScript", G2L["122"]);
+G2L["125"] = Instance.new("LocalScript", G2L["121"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.UIGradient
-G2L["127"] = Instance.new("UIGradient", G2L["11e"]);
-G2L["127"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["126"] = Instance.new("UIGradient", G2L["11d"]);
+G2L["126"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.UIStroke
-G2L["128"] = Instance.new("UIStroke", G2L["116"]);
-G2L["128"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["128"]["Thickness"] = 2.5;
+G2L["127"] = Instance.new("UIStroke", G2L["115"]);
+G2L["127"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["127"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label
-G2L["129"] = Instance.new("TextLabel", G2L["116"]);
-G2L["129"]["TextWrapped"] = true;
-G2L["129"]["BorderSizePixel"] = 0;
-G2L["129"]["TextScaled"] = true;
-G2L["129"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["129"]["TextSize"] = 14;
-G2L["129"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["129"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["129"]["Size"] = UDim2.new(0, 200, 0, 28);
-G2L["129"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["129"]["Text"] = [[Script]];
-G2L["129"]["Name"] = [[Label]];
-G2L["129"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
+G2L["128"] = Instance.new("TextLabel", G2L["115"]);
+G2L["128"]["TextWrapped"] = true;
+G2L["128"]["BorderSizePixel"] = 0;
+G2L["128"]["TextScaled"] = true;
+G2L["128"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["128"]["TextSize"] = 14;
+G2L["128"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["128"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["128"]["Size"] = UDim2.new(0, 200, 0, 28);
+G2L["128"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["128"]["Text"] = [[Script]];
+G2L["128"]["Name"] = [[Label]];
+G2L["128"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.UIStroke
-G2L["12a"] = Instance.new("UIStroke", G2L["129"]);
-G2L["12a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["12a"]["Thickness"] = 2.5;
+G2L["129"] = Instance.new("UIStroke", G2L["128"]);
+G2L["129"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["129"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.ImageLabel
-G2L["12b"] = Instance.new("ImageLabel", G2L["129"]);
-G2L["12b"]["BorderSizePixel"] = 0;
-G2L["12b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12b"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
-G2L["12b"]["Size"] = UDim2.new(0, 200, 0, 100);
-G2L["12b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["12b"]["Position"] = UDim2.new(0, 0, 1, 0);
+G2L["12a"] = Instance.new("ImageLabel", G2L["128"]);
+G2L["12a"]["BorderSizePixel"] = 0;
+G2L["12a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12a"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["12a"]["Size"] = UDim2.new(0, 200, 0, 100);
+G2L["12a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12a"]["Position"] = UDim2.new(0, 0, 1, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.ImageLabel.UIStroke
-G2L["12c"] = Instance.new("UIStroke", G2L["12b"]);
-G2L["12c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["12c"]["Thickness"] = 2.5;
+G2L["12b"] = Instance.new("UIStroke", G2L["12a"]);
+G2L["12b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["12b"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TigerAdminButton
-G2L["12d"] = Instance.new("TextButton", G2L["129"]);
-G2L["12d"]["TextWrapped"] = true;
-G2L["12d"]["BorderSizePixel"] = 0;
-G2L["12d"]["TextSize"] = 14;
-G2L["12d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["12d"]["TextScaled"] = true;
-G2L["12d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["12d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["12d"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["12d"]["Name"] = [[TigerAdminButton]];
-G2L["12d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["12d"]["Text"] = [[Execute]];
-G2L["12d"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
+G2L["12c"] = Instance.new("TextButton", G2L["128"]);
+G2L["12c"]["TextWrapped"] = true;
+G2L["12c"]["BorderSizePixel"] = 0;
+G2L["12c"]["TextSize"] = 14;
+G2L["12c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12c"]["TextScaled"] = true;
+G2L["12c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["12c"]["Size"] = UDim2.new(0, 129, 0, 36);
+G2L["12c"]["Name"] = [[TigerAdminButton]];
+G2L["12c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12c"]["Text"] = [[Execute]];
+G2L["12c"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TigerAdminButton.UICorner
-G2L["12e"] = Instance.new("UICorner", G2L["12d"]);
+G2L["12d"] = Instance.new("UICorner", G2L["12c"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TigerAdminButton.UIStroke
-G2L["12f"] = Instance.new("UIStroke", G2L["12d"]);
-G2L["12f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["12f"]["Thickness"] = 2.5;
+G2L["12e"] = Instance.new("UIStroke", G2L["12c"]);
+G2L["12e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["12e"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TigerAdminButton.UIGradient
-G2L["130"] = Instance.new("UIGradient", G2L["12d"]);
-G2L["130"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["12f"] = Instance.new("UIGradient", G2L["12c"]);
+G2L["12f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TigerAdminButton.LocalScript
-G2L["131"] = Instance.new("LocalScript", G2L["12d"]);
+G2L["130"] = Instance.new("LocalScript", G2L["12c"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.UIGradient
-G2L["132"] = Instance.new("UIGradient", G2L["129"]);
-G2L["132"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["131"] = Instance.new("UIGradient", G2L["128"]);
+G2L["131"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.UIAspectRatioConstraint
+G2L["132"] = Instance.new("UIAspectRatioConstraint", G2L["115"]);
+G2L["132"]["AspectRatio"] = 1.43539;
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.DoorsFrame
 G2L["133"] = Instance.new("Frame", G2L["2"]);
@@ -2275,36 +2275,48 @@ G2L["14e"] = Instance.new("LocalScript", G2L["14a"]);
 G2L["14f"] = Instance.new("UIGradient", G2L["146"]);
 G2L["14f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
+-- StarterGui.MagicXHubv1.0Gui.Holder.DoorsFrame.UIAspectRatioConstraint
+G2L["150"] = Instance.new("UIAspectRatioConstraint", G2L["133"]);
+G2L["150"]["AspectRatio"] = 1.43539;
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.LocalScript
+G2L["151"] = Instance.new("LocalScript", G2L["2"]);
+
+
+-- StarterGui.MagicXHubv1.0Gui.Holder.UIAspectRatioConstraint
+G2L["152"] = Instance.new("UIAspectRatioConstraint", G2L["2"]);
+G2L["152"]["AspectRatio"] = 10.2;
+
 -- StarterGui.MagicXHubv1.0Gui.MagicXHubButton
-G2L["150"] = Instance.new("TextButton", G2L["1"]);
-G2L["150"]["TextWrapped"] = true;
-G2L["150"]["BorderSizePixel"] = 0;
-G2L["150"]["TextSize"] = 14;
-G2L["150"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["150"]["TextScaled"] = true;
-G2L["150"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["150"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["150"]["Size"] = UDim2.new(0, 96, 0, 82);
-G2L["150"]["Name"] = [[MagicXHubButton]];
-G2L["150"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["150"]["Text"] = [[Magic X Hub]];
-G2L["150"]["Position"] = UDim2.new(0.82019, 0, 0.39712, 0);
+G2L["153"] = Instance.new("TextButton", G2L["1"]);
+G2L["153"]["TextWrapped"] = true;
+G2L["153"]["BorderSizePixel"] = 0;
+G2L["153"]["TextSize"] = 14;
+G2L["153"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["153"]["TextScaled"] = true;
+G2L["153"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["153"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["153"]["Size"] = UDim2.new(0, 96, 0, 82);
+G2L["153"]["Name"] = [[MagicXHubButton]];
+G2L["153"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["153"]["Text"] = [[Magic X Hub]];
+G2L["153"]["Position"] = UDim2.new(0.82019, 0, 0.39712, 0);
 
 -- StarterGui.MagicXHubv1.0Gui.MagicXHubButton.UIGradient
-G2L["151"] = Instance.new("UIGradient", G2L["150"]);
-G2L["151"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
+G2L["154"] = Instance.new("UIGradient", G2L["153"]);
+G2L["154"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
 -- StarterGui.MagicXHubv1.0Gui.MagicXHubButton.UICorner
-G2L["152"] = Instance.new("UICorner", G2L["150"]);
+G2L["155"] = Instance.new("UICorner", G2L["153"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.MagicXHubButton.UIStroke
-G2L["153"] = Instance.new("UIStroke", G2L["150"]);
-G2L["153"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-G2L["153"]["Thickness"] = 2.5;
+G2L["156"] = Instance.new("UIStroke", G2L["153"]);
+G2L["156"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["156"]["Thickness"] = 2.5;
 
 -- StarterGui.MagicXHubv1.0Gui.MagicXHubButton.LocalScript
-G2L["154"] = Instance.new("LocalScript", G2L["150"]);
+G2L["157"] = Instance.new("LocalScript", G2L["153"]);
 
 
 -- StarterGui.MagicXHubv1.0Gui.Holder.HomeFrame.TitleLabel.UIGradient.LocalScript
@@ -2346,425 +2358,325 @@ local script = G2L["17"];
 end;
 task.spawn(C_17);
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.TitleLabel.UIGradient.LocalScript
-local function C_22()
-local script = G2L["22"];
+local function C_23()
+local script = G2L["23"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_22);
+task.spawn(C_23);
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.UIGradient.LocalScript
-local function C_24()
-local script = G2L["24"];
+local function C_25()
+local script = G2L["25"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_24);
+task.spawn(C_25);
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.HighlightHubMM2Label.HighlightMM2Button.LocalScript
-local function C_2e()
-local script = G2L["2e"];
+local function C_2f()
+local script = G2L["2f"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Free'))()
 	end)
 end;
-task.spawn(C_2e);
+task.spawn(C_2f);
 -- StarterGui.MagicXHubv1.0Gui.Holder.MM2Frame.SymphonyHubMM2Label.SymphonyButton.LocalScript
-local function C_39()
-local script = G2L["39"];
+local function C_3a()
+local script = G2L["3a"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/ArrayField/main/SymphonyHub.lua'))()
 	end)
 end;
-task.spawn(C_39);
+task.spawn(C_3a);
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HomeButton.UIGradient.LocalScript
-local function C_3f()
-local script = G2L["3f"];
+local function C_41()
+local script = G2L["41"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_3f);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HomeButton.LocalScript
-local function C_42()
-local script = G2L["42"];
-	local homeButton = script.Parent
-	local scrollingFrame = homeButton.Parent
-	local holder = scrollingFrame.Parent
-	local homeFrame = holder:FindFirstChild("HomeFrame")
-	
-	local function toggleHomeFrame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == homeFrame)
-			end
-		end
-	end
-	
-	homeButton.MouseButton1Click:Connect(toggleHomeFrame)
-end;
-task.spawn(C_42);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.MM2Button.LocalScript
-local function C_47()
-local script = G2L["47"];
-	local mm2Button = script.Parent
-	local scrollingFrame = mm2Button.Parent
-	local holder = scrollingFrame.Parent
-	local mm2Frame = holder:FindFirstChild("MM2Frame")
-	
-	local function toggleMM2Frame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == mm2Frame)
-			end
-		end
-	end
-	
-	mm2Button.MouseButton1Click:Connect(toggleMM2Frame)
-end;
-task.spawn(C_47);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.LocalScript
-local function C_48()
-local script = G2L["48"];
-	local scrollingFrame = script.Parent
-	local gradient = scrollingFrame:FindFirstChild("UIGradient")
-	if not gradient then
-		gradient = Instance.new("UIGradient", scrollingFrame)
-	end
-	
-	gradient.Color = ColorSequence.new{
-		ColorSequenceKeypoint.new(0, Color3.fromRGB(68, 222, 255)),
-		ColorSequenceKeypoint.new(1, Color3.fromRGB(211, 59, 255))
-	}
-	gradient.Transparency = NumberSequence.new{
-		NumberSequenceKeypoint.new(0, 0),
-		NumberSequenceKeypoint.new(1, 0)
-	}
-end;
-task.spawn(C_48);
+task.spawn(C_41);
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UniversalButton.UIGradient.LocalScript
-local function C_4b()
-local script = G2L["4b"];
+local function C_4a()
+local script = G2L["4a"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_4b);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.UniversalButton.LocalScript
-local function C_4e()
-local script = G2L["4e"];
-	local universalButton = script.Parent
-	local scrollingFrame = universalButton.Parent
-	local holder = scrollingFrame.Parent
-	local universalFrame = holder:FindFirstChild("UniversalFrame")
-	
-	local function toggleUniversalFrame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == universalFrame)
-			end
-		end
-	end
-	
-	universalButton.MouseButton1Click:Connect(toggleUniversalFrame)
-end;
-task.spawn(C_4e);
+task.spawn(C_4a);
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.AimbotButton.UIGradient.LocalScript
-local function C_51()
-local script = G2L["51"];
+local function C_4f()
+local script = G2L["4f"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_51);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.AimbotButton.LocalScript
+task.spawn(C_4f);
+-- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton.UIGradient.LocalScript
 local function C_54()
 local script = G2L["54"];
-	local aimbotButton = script.Parent
-	local scrollingFrame = aimbotButton.Parent
-	local holder = scrollingFrame.Parent
-	local aimbotFrame = holder:FindFirstChild("AimbotFrame")
-	
-	local function toggleAimbotFrame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == aimbotFrame)
-			end
-		end
+	local gradient = script.Parent
+	while true do
+		gradient.Rotation += 5
+		wait()
 	end
-	
-	aimbotButton.MouseButton1Click:Connect(toggleAimbotFrame)
 end;
 task.spawn(C_54);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton.UIGradient.LocalScript
-local function C_57()
-local script = G2L["57"];
-	local gradient = script.Parent
-	while true do
-		gradient.Rotation += 5
-		wait()
-	end
-end;
-task.spawn(C_57);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.PrisonLifeButton.LocalScript
-local function C_5a()
-local script = G2L["5a"];
-	local prisonLifeButton = script.Parent
-	local scrollingFrame = prisonLifeButton.Parent
-	local holder = scrollingFrame.Parent
-	local prisonLifeFrame = holder:FindFirstChild("PrisonLifeFrame")
-	
-	local function togglePrisonLifeFrame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == prisonLifeFrame)
-			end
-		end
-	end
-	
-	prisonLifeButton.MouseButton1Click:Connect(togglePrisonLifeFrame)
-end;
-task.spawn(C_5a);
 -- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HubsButton.UIGradient.LocalScript
-local function C_5d()
-local script = G2L["5d"];
+local function C_59()
+local script = G2L["59"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_5d);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.HubsButton.LocalScript
-local function C_60()
-local script = G2L["60"];
-	local hubsButton = script.Parent
-	local scrollingFrame = hubsButton.Parent
-	local holder = scrollingFrame.Parent
-	local hubsFrame = holder:FindFirstChild("HubsFrame")
+task.spawn(C_59);
+-- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.LocalScript
+local function C_68()
+local script = G2L["68"];
+	-- LocalScript under ScrollingFrame
 	
-	local function toggleHubsFrame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == hubsFrame)
+	local scrollingFrame = script.Parent
+	local holder = scrollingFrame.Parent
+	
+	-- Frame references
+	local frames = {
+		HomeButton = holder:WaitForChild("HomeFrame"),
+		HubsButton = holder:WaitForChild("HubsFrame"),
+		UniversalButton = holder:WaitForChild("UniversalFrame"),
+		AimbotButton = holder:WaitForChild("AimbotFrame"),
+		PrisonLifeButton = holder:WaitForChild("PrisonLifeFrame"),
+		MM2Button = holder:WaitForChild("MM2Frame"),
+		BladeBallButton = holder:WaitForChild("BladeBallFrame"),
+		FunkyFridayButton = holder:WaitForChild("FunkyFridayFrame"),
+		DoorsButton = holder:WaitForChild("DoorsFrame")
+	}
+	
+	local function animateTransparency(elements, targetTransparency, duration)
+		local startTime = tick()
+		local endTime = startTime + duration
+	
+		while tick() < endTime do
+			local alpha = (tick() - startTime) / duration
+			for _, element in pairs(elements) do
+				local startTransparency = element.BackgroundTransparency
+				element.BackgroundTransparency = startTransparency + (targetTransparency - startTransparency) * alpha
+				if element:IsA("ImageLabel") then
+					local startImageTransparency = element.ImageTransparency
+					element.ImageTransparency = startImageTransparency + (targetTransparency - startImageTransparency) * alpha
+				end
+			end
+			wait(0.03)  -- Update transparency every 0.03 seconds for a faster transition
+		end
+	
+		for _, element in pairs(elements) do
+			element.BackgroundTransparency = targetTransparency
+			if element:IsA("ImageLabel") then
+				element.ImageTransparency = targetTransparency
 			end
 		end
 	end
 	
-	hubsButton.MouseButton1Click:Connect(toggleHubsFrame)
-end;
-task.spawn(C_60);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.BladeBallButton.LocalScript
-local function C_65()
-local script = G2L["65"];
-	local bladeBallButton = script.Parent
-	local scrollingFrame = bladeBallButton.Parent
-	local holder = scrollingFrame.Parent
-	local bladeBallFrame = holder:FindFirstChild("BladeBallFrame")
-	
-	local function toggleBladeBallFrame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == bladeBallFrame)
+	local function hideAllFramesExcept(exceptFrame)
+		for _, child in pairs(holder:GetDescendants()) do
+			if child:IsA("Frame") or child:IsA("TextLabel") or child:IsA("ImageLabel") then
+				if child.Parent ~= exceptFrame then
+					child.Visible = false
+				end
 			end
 		end
 	end
 	
-	bladeBallButton.MouseButton1Click:Connect(toggleBladeBallFrame)
+	local function onButtonClicked(button)
+		local frameToShow = frames[button.Name]
+	
+		if frameToShow then
+			hideAllFramesExcept(frameToShow)
+	
+			-- Set frame and its children to fully transparent and then visible
+			frameToShow.Visible = true
+			local elementsToAnimate = {frameToShow}
+			for _, child in pairs(frameToShow:GetDescendants()) do
+				if child:IsA("Frame") or child:IsA("TextLabel") or child:IsA("ImageLabel") then
+					child.Visible = true
+					child.BackgroundTransparency = 1  -- Start fully transparent
+					if child:IsA("ImageLabel") then
+						child.ImageTransparency = 1  -- Start fully transparent
+					end
+					table.insert(elementsToAnimate, child)
+				end
+			end
+	
+			-- Animate transparency from 1 to 0 (faster transition)
+			animateTransparency(elementsToAnimate, 0, 0.5)  -- 0.5 second animation for faster transition
+		end
+	end
+	
+	for _, button in pairs(scrollingFrame:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseButton1Click:Connect(function()
+				onButtonClicked(button)
+			end)
+		end
+	end
 end;
-task.spawn(C_65);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.FunkyFridayButton.LocalScript
+task.spawn(C_68);
+-- StarterGui.MagicXHubv1.0Gui.Holder.LocalScript
 local function C_6a()
 local script = G2L["6a"];
-	local funkyFridayButton = script.Parent
-	local scrollingFrame = funkyFridayButton.Parent
-	local holder = scrollingFrame.Parent
-	local funkyFridayFrame = holder:FindFirstChild("FunkyFridayFrame")
-	
-	local function toggleFunkyFridayFrame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == funkyFridayFrame)
-			end
-		end
-	end
-	
-	funkyFridayButton.MouseButton1Click:Connect(toggleFunkyFridayFrame)
-end;
-task.spawn(C_6a);
--- StarterGui.MagicXHubv1.0Gui.Holder.ScrollingFrame.DoorsButton.LocalScript
-local function C_6f()
-local script = G2L["6f"];
-	local doorsButton = script.Parent
-	local scrollingFrame = doorsButton.Parent
-	local holder = scrollingFrame.Parent
-	local doorsFrame = holder:FindFirstChild("DoorsFrame")
-	
-	local function toggleDoorsFrame()
-		for _, frame in pairs(holder:GetChildren()) do
-			if frame:IsA("Frame") then
-				frame.Visible = (frame == doorsFrame)
-			end
-		end
-	end
-	
-	doorsButton.MouseButton1Click:Connect(toggleDoorsFrame)
-end;
-task.spawn(C_6f);
--- StarterGui.MagicXHubv1.0Gui.Holder.LocalScript
-local function C_70()
-local script = G2L["70"];
 	script.Parent.Draggable = true
 	script.Parent.Active = true
 end;
-task.spawn(C_70);
+task.spawn(C_6a);
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TitleLabel.UIGradient.LocalScript
-local function C_75()
-local script = G2L["75"];
+local function C_6f()
+local script = G2L["6f"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_75);
+task.spawn(C_6f);
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.UIGradient.LocalScript
-local function C_77()
-local script = G2L["77"];
+local function C_71()
+local script = G2L["71"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_77);
+task.spawn(C_71);
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TbaoHubLabel.TbaoHubButton.LocalScript
-local function C_81()
-local script = G2L["81"];
+local function C_7b()
+local script = G2L["7b"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaohubPrisonLife"))()
 	end)
 end;
-task.spawn(C_81);
+task.spawn(C_7b);
 -- StarterGui.MagicXHubv1.0Gui.Holder.PrisonLifeFrame.TigerAdminLabel.TigerAdminButton.LocalScript
-local function C_8c()
-local script = G2L["8c"];
+local function C_86()
+local script = G2L["86"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Tiger%20Admin%203.0'))()
 	end)
 end;
-task.spawn(C_8c);
+task.spawn(C_86);
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.TitleLabel.UIGradient.LocalScript
-local function C_92()
-local script = G2L["92"];
+local function C_8d()
+local script = G2L["8d"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_92);
+task.spawn(C_8d);
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UIGradient.LocalScript
-local function C_94()
-local script = G2L["94"];
+local function C_8f()
+local script = G2L["8f"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_94);
+task.spawn(C_8f);
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.LocalScript
-local function C_9e()
-local script = G2L["9e"];
+local function C_99()
+local script = G2L["99"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/b8QDUqJ8"))()
 	end)
 end;
-task.spawn(C_9e);
+task.spawn(C_99);
 -- StarterGui.MagicXHubv1.0Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.LocalScript
-local function C_a9()
-local script = G2L["a9"];
+local function C_a4()
+local script = G2L["a4"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/b8QDUqJ8"))()
 	end)
 end;
-task.spawn(C_a9);
+task.spawn(C_a4);
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.TitleLabel.UIGradient.LocalScript
-local function C_af()
-local script = G2L["af"];
+local function C_ab()
+local script = G2L["ab"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_af);
+task.spawn(C_ab);
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.UIGradient.LocalScript
-local function C_b1()
-local script = G2L["b1"];
+local function C_ad()
+local script = G2L["ad"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_b1);
+task.spawn(C_ad);
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.IYLabel.IYButton.LocalScript
-local function C_bb()
-local script = G2L["bb"];
+local function C_b7()
+local script = G2L["b7"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end;
-task.spawn(C_bb);
+task.spawn(C_b7);
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.Dexv4Label.Dexv4Button.LocalScript
-local function C_c6()
-local script = G2L["c6"];
+local function C_c2()
+local script = G2L["c2"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
 	end)
 end;
-task.spawn(C_c6);
+task.spawn(C_c2);
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.RemoteSpyLabel.RemoteSpyButton.LocalScript
-local function C_d0()
-local script = G2L["d0"];
+local function C_cc()
+local script = G2L["cc"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua"))()
 	end)
 end;
-task.spawn(C_d0);
+task.spawn(C_cc);
 -- StarterGui.MagicXHubv1.0Gui.Holder.UniversalFrame.HydroxideLabel.HydroxideButton.LocalScript
-local function C_da()
-local script = G2L["da"];
+local function C_d6()
+local script = G2L["d6"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -2779,48 +2691,58 @@ local script = G2L["da"];
 		webImport("ui/main")
 	end)
 end;
-task.spawn(C_da);
+task.spawn(C_d6);
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.TitleLabel.UIGradient.LocalScript
-local function C_e0()
-local script = G2L["e0"];
+local function C_dd()
+local script = G2L["dd"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_e0);
+task.spawn(C_dd);
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.UIGradient.LocalScript
-local function C_e2()
-local script = G2L["e2"];
+local function C_df()
+local script = G2L["df"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_e2);
+task.spawn(C_df);
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.YarhmHubLabel.YarhmHubButton.LocalScript
-local function C_ec()
-local script = G2L["ec"];
+local function C_e9()
+local script = G2L["e9"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://yarhm.goteamst.com/scr", false))()
 	end)
 end;
-task.spawn(C_ec);
+task.spawn(C_e9);
 -- StarterGui.MagicXHubv1.0Gui.Holder.HubsFrame.Label.TigerAdminButton.LocalScript
-local function C_f7()
-local script = G2L["f7"];
+local function C_f4()
+local script = G2L["f4"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Tiger%20Admin%203.0'))()
 	end)
 end;
-task.spawn(C_f7);
+task.spawn(C_f4);
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.TitleLabel.UIGradient.LocalScript
+local function C_fb()
+local script = G2L["fb"];
+	local gradient = script.Parent
+	while true do
+		gradient.Rotation += 5
+		wait()
+	end
+end;
+task.spawn(C_fb);
+-- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.UIGradient.LocalScript
 local function C_fd()
 local script = G2L["fd"];
 	local gradient = script.Parent
@@ -2830,76 +2752,66 @@ local script = G2L["fd"];
 	end
 end;
 task.spawn(C_fd);
--- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.UIGradient.LocalScript
-local function C_ff()
-local script = G2L["ff"];
-	local gradient = script.Parent
-	while true do
-		gradient.Rotation += 5
-		wait()
-	end
-end;
-task.spawn(C_ff);
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TbaoHubButton.LocalScript
-local function C_109()
-local script = G2L["109"];
+local function C_107()
+local script = G2L["107"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaohubPrisonLife"))()
 	end)
 end;
-task.spawn(C_109);
+task.spawn(C_107);
 -- StarterGui.MagicXHubv1.0Gui.Holder.BladeBallFrame.Label.TigerAdminButton.LocalScript
-local function C_114()
-local script = G2L["114"];
+local function C_112()
+local script = G2L["112"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Tiger%20Admin%203.0'))()
 	end)
 end;
-task.spawn(C_114);
+task.spawn(C_112);
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.TitleLabel.UIGradient.LocalScript
-local function C_11a()
-local script = G2L["11a"];
+local function C_119()
+local script = G2L["119"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_11a);
+task.spawn(C_119);
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.UIGradient.LocalScript
-local function C_11c()
-local script = G2L["11c"];
+local function C_11b()
+local script = G2L["11b"];
 	local gradient = script.Parent
 	while true do
 		gradient.Rotation += 5
 		wait()
 	end
 end;
-task.spawn(C_11c);
+task.spawn(C_11b);
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TbaoHubButton.LocalScript
-local function C_126()
-local script = G2L["126"];
+local function C_125()
+local script = G2L["125"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaohubPrisonLife"))()
 	end)
 end;
-task.spawn(C_126);
+task.spawn(C_125);
 -- StarterGui.MagicXHubv1.0Gui.Holder.FunkyFridayFrame.Label.TigerAdminButton.LocalScript
-local function C_131()
-local script = G2L["131"];
+local function C_130()
+local script = G2L["130"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Tiger%20Admin%203.0'))()
 	end)
 end;
-task.spawn(C_131);
+task.spawn(C_130);
 -- StarterGui.MagicXHubv1.0Gui.Holder.DoorsFrame.TitleLabel.UIGradient.LocalScript
 local function C_137()
 local script = G2L["137"];
@@ -2940,9 +2852,20 @@ local script = G2L["14e"];
 	end)
 end;
 task.spawn(C_14e);
+-- StarterGui.MagicXHubv1.0Gui.Holder.LocalScript
+local function C_151()
+local script = G2L["151"];
+	local sound = Instance.new("Sound")
+	sound.Parent = script.Parent
+	sound.SoundId = "rbxassetid://1838857104"
+	sound.Looped = true
+	sound.Volume = 0.75
+	sound.Playing = true
+end;
+task.spawn(C_151);
 -- StarterGui.MagicXHubv1.0Gui.MagicXHubButton.LocalScript
-local function C_154()
-local script = G2L["154"];
+local function C_157()
+local script = G2L["157"];
 	script.Parent.Draggable = true
 	script.Parent.Active = true
 	local gui = script.Parent.Parent
@@ -2999,6 +2922,6 @@ local script = G2L["154"];
 	
 	button.MouseButton1Click:Connect(animateHolder)
 end;
-task.spawn(C_154);
+task.spawn(C_157);
 
 return G2L["1"], require;
