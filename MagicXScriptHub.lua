@@ -855,7 +855,7 @@ G2L["80"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["80"]["Size"] = UDim2.new(0, 200, 0, 50);
 G2L["80"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel
 G2L["81"] = Instance.new("TextLabel", G2L["79"]);
 G2L["81"]["TextWrapped"] = true;
 G2L["81"]["BorderSizePixel"] = 0;
@@ -866,16 +866,16 @@ G2L["81"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], 
 G2L["81"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["81"]["Size"] = UDim2.new(0, 200, 0, 28);
 G2L["81"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["81"]["Text"] = [[Script]];
-G2L["81"]["Name"] = [[Label]];
+G2L["81"]["Text"] = [[Universal Aimbot]];
+G2L["81"]["Name"] = [[UniversalAimbotLabel]];
 G2L["81"]["Position"] = UDim2.new(0.01761, 0, 0.19663, 0);
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.UIStroke
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.UIStroke
 G2L["82"] = Instance.new("UIStroke", G2L["81"]);
 G2L["82"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["82"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.ImageLabel
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.ImageLabel
 G2L["83"] = Instance.new("ImageLabel", G2L["81"]);
 G2L["83"]["BorderSizePixel"] = 0;
 G2L["83"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -884,12 +884,12 @@ G2L["83"]["Size"] = UDim2.new(0, 200, 0, 100);
 G2L["83"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["83"]["Position"] = UDim2.new(0, 0, 1, 0);
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.ImageLabel.UIStroke
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.ImageLabel.UIStroke
 G2L["84"] = Instance.new("UIStroke", G2L["83"]);
 G2L["84"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["84"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton
 G2L["85"] = Instance.new("TextButton", G2L["81"]);
 G2L["85"]["TextWrapped"] = true;
 G2L["85"]["BorderSizePixel"] = 0;
@@ -899,29 +899,29 @@ G2L["85"]["TextScaled"] = true;
 G2L["85"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["85"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["85"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["85"]["Name"] = [[HighlightMM2Button]];
+G2L["85"]["Name"] = [[UniversalAimbotButton]];
 G2L["85"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["85"]["Text"] = [[Execute]];
 G2L["85"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.UICorner
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.UICorner
 G2L["86"] = Instance.new("UICorner", G2L["85"]);
 
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.UIStroke
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.UIStroke
 G2L["87"] = Instance.new("UIStroke", G2L["85"]);
 G2L["87"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["87"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.UIGradient
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.UIGradient
 G2L["88"] = Instance.new("UIGradient", G2L["85"]);
 G2L["88"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.LocalScript
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.LocalScript
 G2L["89"] = Instance.new("LocalScript", G2L["85"]);
 
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.UIGradient
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.UIGradient
 G2L["8a"] = Instance.new("UIGradient", G2L["81"]);
 G2L["8a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
@@ -930,7 +930,7 @@ G2L["8b"] = Instance.new("UIStroke", G2L["79"]);
 G2L["8b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["8b"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel
 G2L["8c"] = Instance.new("TextLabel", G2L["79"]);
 G2L["8c"]["TextWrapped"] = true;
 G2L["8c"]["BorderSizePixel"] = 0;
@@ -941,16 +941,16 @@ G2L["8c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], 
 G2L["8c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["8c"]["Size"] = UDim2.new(0, 200, 0, 28);
 G2L["8c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8c"]["Text"] = [[Script]];
-G2L["8c"]["Name"] = [[Label]];
+G2L["8c"]["Text"] = [[Unnamed ESP]];
+G2L["8c"]["Name"] = [[UnnamedESPLabel]];
 G2L["8c"]["Position"] = UDim2.new(0.57339, 0, 0.19663, 0);
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.UIStroke
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.UIStroke
 G2L["8d"] = Instance.new("UIStroke", G2L["8c"]);
 G2L["8d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["8d"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.ImageLabel
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.ImageLabel
 G2L["8e"] = Instance.new("ImageLabel", G2L["8c"]);
 G2L["8e"]["BorderSizePixel"] = 0;
 G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -959,12 +959,12 @@ G2L["8e"]["Size"] = UDim2.new(0, 200, 0, 100);
 G2L["8e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["8e"]["Position"] = UDim2.new(0, 0, 1, 0);
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.ImageLabel.UIStroke
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.ImageLabel.UIStroke
 G2L["8f"] = Instance.new("UIStroke", G2L["8e"]);
 G2L["8f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["8f"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton
 G2L["90"] = Instance.new("TextButton", G2L["8c"]);
 G2L["90"]["TextWrapped"] = true;
 G2L["90"]["BorderSizePixel"] = 0;
@@ -974,29 +974,29 @@ G2L["90"]["TextScaled"] = true;
 G2L["90"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["90"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["90"]["Size"] = UDim2.new(0, 129, 0, 36);
-G2L["90"]["Name"] = [[HighlightMM2Button]];
+G2L["90"]["Name"] = [[UnnamedESPButton]];
 G2L["90"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["90"]["Text"] = [[Execute]];
 G2L["90"]["Position"] = UDim2.new(0.175, 0, 2.92954, 0);
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.UICorner
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.UICorner
 G2L["91"] = Instance.new("UICorner", G2L["90"]);
 
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.UIStroke
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.UIStroke
 G2L["92"] = Instance.new("UIStroke", G2L["90"]);
 G2L["92"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["92"]["Thickness"] = 2.5;
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.UIGradient
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.UIGradient
 G2L["93"] = Instance.new("UIGradient", G2L["90"]);
 G2L["93"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.LocalScript
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.LocalScript
 G2L["94"] = Instance.new("LocalScript", G2L["90"]);
 
 
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.UIGradient
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.UIGradient
 G2L["95"] = Instance.new("UIGradient", G2L["8c"]);
 G2L["95"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(165, 250, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(251, 167, 254))};
 
@@ -1638,23 +1638,23 @@ local script = G2L["7f"];
 	end
 end;
 task.spawn(C_7f);
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.LocalScript
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UniversalAimbotLabel.UniversalAimbotButton.LocalScript
 local function C_89()
 local script = G2L["89"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Free'))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/b8QDUqJ8"))()
 	end)
 end;
 task.spawn(C_89);
--- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.Label.HighlightMM2Button.LocalScript
+-- StarterGui.MagicXHubv2Gui.Holder.AimbotFrame.UnnamedESPLabel.UnnamedESPButton.LocalScript
 local function C_94()
 local script = G2L["94"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Free'))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/b8QDUqJ8"))()
 	end)
 end;
 task.spawn(C_94);
